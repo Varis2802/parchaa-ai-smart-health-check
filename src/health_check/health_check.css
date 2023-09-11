@@ -1,0 +1,255 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #eef1ff; /* Gradient Background */
+  font-family: "Arial", sans-serif;
+  color: #4a68f1;
+}
+h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 6px;
+  place-items: center;
+  margin-top: 0px;
+  background-color: #4A68F1;
+  border-radius: 20px;
+  height: 30rem;
+  width: 60rem;
+  font-family: "Arial", sans-serif;
+  color: #4a68f1;
+  overflow-y: auto !important;
+}
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  height: 50px;
+  width:180px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ffffffa6;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.button-container-2 {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 6px;
+  place-items: center;
+  margin-top: 20px;
+  background-color: #4A68F1;
+  border-radius: 20px;
+  height: 30rem;
+  width: 30rem;
+  font-family: "Arial", sans-serif;
+  color: #4a68f1;
+  overflow-y: auto !important;
+  position: relative; /* Add relative positioning */
+}
+
+button.arrow1 {
+  background-color: transparent;
+  position: absolute; /* Make it absolute */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+  padding: 0;
+  border: none; /* Optional: Removes default button border */
+  outline: none; /* Optional: Removes focus outline */
+}
+
+button.arrow2 {
+  background-color: transparent;
+  position: absolute; /* Make it absolute */
+  top: 0; /* Align to the top */
+  right: 0; /* Align to the right */
+  padding: 0;
+  border: none; /* Optional: Removes default button border */
+  outline: none; /* Optional: Removes focus outline */
+}
+
+
+button:hover {
+  background-color: #53b88b; /* Red color on hover */
+  color: #fff;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.question-text {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+button.prev {
+  align-self: flex-start; /* Aligns the Prev button to the left */
+}
+
+button.next {
+  align-self: flex-end; /* Aligns the Next button to the right */
+}
+
+/* For smoother button transitions */
+button {
+  transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out,
+    color 0.2s ease-in-out;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.App .question-text,
+.App button {
+  animation: fadeIn 0.9s forwards;
+}
+
+.heading{
+  color: #53b88b;
+  margin-top: 20px;
+}
+.home{
+  justify-content: center;
+  align-items: center;
+  width: 17rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 30px;
+}
+
+.question-text{
+  font-size: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ... [Your previous CSS here] ... */
+
+/* Tablets in portrait mode, iPad */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .button-container {
+    width: 50rem;
+    height: 25rem;
+  }
+  .button-container-2 {
+    width: 25rem;
+    height: 25rem;
+  }
+}
+
+/* Tablets in landscape mode, iPad */
+@media only screen and (min-width: 1024px) {
+  /* If you have any specific styles for landscape mode, add here */
+}
+
+/* Small laptops and large tablets in landscape mode */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  .button-container {
+    width: 55rem;
+    height: 28rem;
+  }
+  .button-container-2 {
+    width: 28rem;
+    height: 28rem;
+  }
+}
+
+/* Desktops and large laptops */
+@media only screen and (min-width: 1281px) {
+  /* No changes here unless required */
+}
+
+/* Extra styles for iPhone (if needed) */
+@media screen and (device-aspect-ratio: 2/3) {
+  .button-container {
+    width: 40rem;
+    height: 20rem;
+  }
+  .button-container-2 {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+
+/* Extra styles for iPhone 5 and 5S */
+@media screen and (device-aspect-ratio: 40/71) {
+  .button-container {
+    width: 35rem;
+    height: 18rem;
+  }
+  .button-container-2 {
+    width: 18rem;
+    height: 18rem;
+  }
+}
+
+/* Extra styles for iPhone 6, 7, 8, and 9 */
+@media screen and (device-aspect-ratio: 9/16) {
+  .button-container {
+    width: 38rem;
+    height: 20rem;
+  }
+  .button-container-2 {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+
+/* Extra styles for iPhone X, 11, and 12 */
+@media screen and (device-aspect-ratio: 375/812), (device-aspect-ratio: 390/844), (device-aspect-ratio: 428/926) {
+  .button-container {
+    width: 40rem;
+    height: 22rem;
+  }
+  .button-container-2 {
+    width: 22rem;
+    height: 22rem;
+  }
+}

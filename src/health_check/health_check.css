@@ -65,7 +65,6 @@ button {
   width: 30rem;
   font-family: "Arial", sans-serif;
   color: #4a68f1;
-  overflow-y: auto !important;
   position: relative; /* Add relative positioning */
 }
 

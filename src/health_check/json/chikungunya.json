@@ -1,0 +1,140 @@
+{
+    "type": "disease",
+    "name": "Chikungunya",
+    "question_options": [
+      {
+        "question": "Have you been bitten by a mosquito in the past 2 weeks?",
+        "options": [
+          {"option1": "Yes", "score": 4},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q1",
+        "prev_id": "null",
+        "next_id": "Q2"
+      },
+      {
+        "question": "Do you have a high fever that started abruptly?",
+        "options": [
+          {"option1": "Yes", "score": 5},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q2",
+        "prev_id": "Q1",
+        "next_id": "Q3"
+      },
+      {
+        "question": "Are you experiencing severe joint pain, especially in the wrists, ankles or knuckles?",
+        "options": [
+          {"option1": "Yes", "score": 5},
+          {"option2": "Mild pain", "score": 3},
+          {"option3": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q3",
+        "prev_id": "Q2",
+        "next_id": "Q4"
+      },
+      {
+        "question": "Do you have a rash on the trunk, limbs or face?",
+        "options": [
+          {"option1": "Yes", "score": 4},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q4",
+        "prev_id": "Q3",
+        "next_id": "Q5"
+      },
+      {
+        "question": "Are you experiencing muscle pain or headaches?",
+        "options": [
+          {"option1": "Yes", "score": 3},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q5",
+        "prev_id": "Q4",
+        "next_id": "Q6"
+      },
+      {
+        "question": "Have you traveled to or reside in an area where Chikungunya is prevalent?",
+        "options": [
+          {"option1": "Yes", "score": 4},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q6",
+        "prev_id": "Q5",
+        "next_id": "Q7"
+      },
+      {
+        "question": "Have you experienced symptoms of nausea or vomiting?",
+        "options": [
+          {"option1": "Yes", "score": 2},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q7",
+        "prev_id": "Q6",
+        "next_id": "Q8"
+      },
+      {
+        "question": "Have you noticed any swelling in the joints?",
+        "options": [
+          {"option1": "Yes", "score": 4},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q8",
+        "prev_id": "Q7",
+        "next_id": "Q9"
+      },
+      {
+        "question": "Are you experiencing fatigue or lethargy?",
+        "options": [
+          {"option1": "Yes", "score": 2},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q9",
+        "prev_id": "Q8",
+        "next_id": "Q10"
+      },
+      {
+        "question": "Have you had red eyes or conjunctivitis without any discharge?",
+        "options": [
+          {"option1": "Yes", "score": 3},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q10",
+        "prev_id": "Q9",
+        "next_id": "Q11"
+      },
+      {
+        "question": "Do you have any underlying conditions like diabetes or hypertension?",
+        "options": [
+          {"option1": "Yes", "score": 2},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q11",
+        "prev_id": "Q10",
+        "next_id": "Q12"
+      },
+      {
+        "question": "Do you experience pain in the lower back or around the eyes?",
+        "options": [
+          {"option1": "Yes", "score": 3},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q12",
+        "prev_id": "Q11",
+        "next_id": "null"
+      }
+    ]
+  }
+  

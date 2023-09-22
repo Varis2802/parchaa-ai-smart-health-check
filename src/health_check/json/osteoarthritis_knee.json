@@ -1,0 +1,182 @@
+{
+    "type": "disease",
+    "name": "Osteoarthritis of knee",
+    "question_options": [
+      {
+        "question": "Do you experience pain in your knee while walking or climbing stairs?",
+        "options": [
+          {"option1": "Always", "score": "5"},
+          {"option2": "Often", "score": "3"},
+          {"option3": "Rarely/Never", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q1",
+        "prev_id": "null",
+        "next_id": "Q2"
+      },
+      {
+        "question": "Is there a family history of knee osteoarthritis?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q2",
+        "prev_id": "Q1",
+        "next_id": "Q3"
+      },
+      {
+        "question": "Have you ever had a significant knee injury?",
+        "options": [
+          {"option1": "Yes", "score": "5"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q3",
+        "prev_id": "Q2",
+        "next_id": "Q4"
+      },
+      {
+        "question": "Do you feel stiffness in the knee, especially after prolonged inactivity?",
+        "options": [
+          {"option1": "Always", "score": "4"},
+          {"option2": "Sometimes", "score": "2"},
+          {"option3": "Never", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q4",
+        "prev_id": "Q3",
+        "next_id": "Q5"
+      },
+      {
+        "question": "How would you describe your weight?",
+        "options": [
+          {"option1": "Overweight/Obese", "score": "5"},
+          {"option2": "Normal", "score": "1"},
+          {"option3": "Underweight", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q5",
+        "prev_id": "Q4",
+        "next_id": "Q6"
+      },
+      {
+        "question": "Do you hear any cracking or popping sounds in the knee joint?",
+        "options": [
+          {"option1": "Often", "score": "4"},
+          {"option2": "Sometimes", "score": "2"},
+          {"option3": "Never", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q6",
+        "prev_id": "Q5",
+        "next_id": "Q7"
+      },
+      {
+        "question": "Have you noticed any visible swelling around the knee?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q7",
+        "prev_id": "Q6",
+        "next_id": "Q8"
+      },
+      {
+        "question": "How often do you participate in high-impact activities (like running or jumping)?",
+        "options": [
+          {"option1": "Frequently", "score": "5"},
+          {"option2": "Occasionally", "score": "2"},
+          {"option3": "Rarely/Never", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q8",
+        "prev_id": "Q7",
+        "next_id": "Q9"
+      },
+      {
+        "question": "Do you have difficulty fully straightening or bending the knee?",
+        "options": [
+          {"option1": "Always", "score": "5"},
+          {"option2": "Sometimes", "score": "2"},
+          {"option3": "Never", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q9",
+        "prev_id": "Q8",
+        "next_id": "Q10"
+      },
+      {
+        "question": "Have you ever taken medications for prolonged periods for any conditions that might have affected the bone density?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q10",
+        "prev_id": "Q9",
+        "next_id": "Q11"
+      },
+      {
+        "question": "How would you describe your overall level of physical activity?",
+        "options": [
+          {"option1": "Very Active", "score": "1"},
+          {"option2": "Moderately Active", "score": "2"},
+          {"option3": "Sedentary", "score": "4"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q11",
+        "prev_id": "Q10",
+        "next_id": "Q12"
+      },
+      {
+        "question": "Do you have a history of rheumatoid arthritis or other autoimmune diseases?",
+        "options": [
+          {"option1": "Yes", "score": "5"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q12",
+        "prev_id": "Q11",
+        "next_id": "Q13"
+      },
+      {
+        "question": "How is your diet in terms of nutrition?",
+        "options": [
+          {"option1": "Balanced & Healthy", "score": "0"},
+          {"option2": "Average", "score": "2"},
+          {"option3": "Poor", "score": "4"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q13",
+        "prev_id": "Q12",
+        "next_id": "Q14"
+      },
+      {
+        "question": "Have you ever received corticosteroid injections in your knee?",
+        "options": [
+          {"option1": "Yes, multiple times", "score": "5"},
+          {"option2": "Once or twice", "score": "3"},
+          {"option3": "Never", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q14",
+        "prev_id": "Q13",
+        "next_id": "Q15"
+      },
+      {
+        "question": "Have you experienced any episodes of locking or giving way of the knee?",
+        "options": [
+          {"option1": "Frequently", "score": "5"},
+          {"option2": "Occasionally", "score": "3"},
+          {"option3": "Never", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q15",
+        "prev_id": "Q14",
+        "next_id": "null"
+      }
+    ]
+  }
+  

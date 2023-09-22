@@ -1,0 +1,172 @@
+{
+    "type": "disease",
+    "name": "Kidney Stone",
+    "question_options": [
+      {
+        "question": "Have you experienced sudden, sharp pain in the lower back or side?",
+        "options": [
+          {"option1": "Yes", "score": "5"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q1",
+        "prev_id": "null",
+        "next_id": "Q2"
+      },
+      {
+        "question": "Do you notice blood in your urine (hematuria)?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q2",
+        "prev_id": "Q1",
+        "next_id": "Q3"
+      },
+      {
+        "question": "Have you felt a persistent need to urinate?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q3",
+        "prev_id": "Q2",
+        "next_id": "Q4"
+      },
+      {
+        "question": "Do you have a family history of kidney stones?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "1"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q4",
+        "prev_id": "Q3",
+        "next_id": "Q5"
+      },
+      {
+        "question": "Do you consume a diet high in protein, sodium, or sugar?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "1"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q5",
+        "prev_id": "Q4",
+        "next_id": "Q6"
+      },
+      {
+        "question": "Have you been diagnosed with any digestive diseases or had intestinal surgery?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q6",
+        "prev_id": "Q5",
+        "next_id": "Q7"
+      },
+      {
+        "question": "Are you frequently dehydrated?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "1"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q7",
+        "prev_id": "Q6",
+        "next_id": "Q8"
+      },
+      {
+        "question": "Have you been diagnosed with renal tubular acidosis?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q8",
+        "prev_id": "Q7",
+        "next_id": "Q9"
+      },
+      {
+        "question": "Do you have a history of recurrent urinary tract infections?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "1"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q9",
+        "prev_id": "Q8",
+        "next_id": "Q10"
+      },
+      {
+        "question": "Have you been diagnosed with hyperparathyroidism?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q10",
+        "prev_id": "Q9",
+        "next_id": "Q11"
+      },
+      {
+        "question": "Do you take medications like topiramate, zonisamide, or certain diuretics?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q11",
+        "prev_id": "Q10",
+        "next_id": "Q12"
+      },
+      {
+        "question": "Do you experience pain during urination?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q12",
+        "prev_id": "Q11",
+        "next_id": "Q13"
+      },
+      {
+        "question": "Have you experienced frequent bouts of nausea or vomiting?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q13",
+        "prev_id": "Q12",
+        "next_id": "Q14"
+      },
+      {
+        "question": "Are you above the age of 40?",
+        "options": [
+          {"option1": "Yes", "score": "2"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q14",
+        "prev_id": "Q13",
+        "next_id": "Q15"
+      },
+      {
+        "question": "Have you had kidney stones in the past?",
+        "options": [
+          {"option1": "Yes", "score": "5"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q15",
+        "prev_id": "Q14",
+        "next_id": "null"
+      }
+    ]
+  }
+  

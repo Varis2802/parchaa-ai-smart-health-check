@@ -194,16 +194,21 @@
 // }
 
 // export default App;
-import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import HealthCheck from './health_check';
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import HealthCheck from "./health_check";
+import "./App.css"
+
 function App() {
-    return (
-     <BrowserRouter>
-        <Routes>
-        <Route index path="/" element={<HealthCheck/>}></Route>
-        </Routes>
-     </BrowserRouter>
-    );
-  }
-  export default App;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route index path="/" element={<HealthCheck />}></Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default App;
+
+

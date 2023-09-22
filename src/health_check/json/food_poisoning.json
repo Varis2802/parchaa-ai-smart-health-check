@@ -1,0 +1,177 @@
+{
+  "type": "disease",
+  "name": "Food Poisoning",
+  "question_options": [
+    {
+      "question": "Did you consume food that had been left out at room temperature for several hours?",
+      "options": [
+        { "option1": "Yes", "score": 5 },
+        { "option2": "No", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q1",
+      "prev_id": "null",
+      "next_id": "Q2"
+    },
+    {
+      "question": "Have you recently eaten at a place with poor hygiene or questionable food handling practices?",
+      "options": [
+        { "option1": "Yes", "score": 5 },
+        { "option2": "No", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q2",
+      "prev_id": "Q1",
+      "next_id": "Q3"
+    },
+    {
+      "question": "Are you experiencing nausea or vomiting?",
+      "options": [
+        { "option1": "Severe", "score": 5 },
+        { "option2": "Mild", "score": 3 },
+        { "option3": "No", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q3",
+      "prev_id": "Q2",
+      "next_id": "Q4"
+    },
+    {
+      "question": "Do you have diarrhea?",
+      "options": [
+        { "option1": "Frequent and watery", "score": 5 },
+        { "option2": "Occasional", "score": 3 },
+        { "option3": "No", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q4",
+      "prev_id": "Q3",
+      "next_id": "Q5"
+    },
+    {
+      "question": "Are you experiencing stomach cramps?",
+      "options": [
+        { "option1": "Severe", "score": 4 },
+        { "option2": "Mild", "score": 2 },
+        { "option3": "No", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q5",
+      "prev_id": "Q4",
+      "next_id": "Q6"
+    },
+    {
+      "question": "Have you observed any blood in your stool?",
+      "options": [
+        { "option1": "Yes", "score": 5 },
+        { "option2": "No", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q6",
+      "prev_id": "Q5",
+      "next_id": "Q7"
+    },
+    {
+      "question": "Are you experiencing dehydration symptoms (e.g., dark urine, dry mouth, excessive thirst)?",
+      "options": [
+        { "option1": "Yes", "score": 4 },
+        { "option2": "No", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q7",
+      "prev_id": "Q6",
+      "next_id": "Q8"
+    },
+    {
+      "question": "Have you recently consumed raw or undercooked seafood, meat, or eggs?",
+      "options": [
+        { "option1": "Yes", "score": 5 },
+        { "option2": "No", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q8",
+      "prev_id": "Q7",
+      "next_id": "Q9"
+    },
+    {
+      "question": "Did you drink untreated water from a natural source recently (like a river or pond)?",
+      "options": [
+        { "option1": "Yes", "score": 5 },
+        { "option2": "No", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q9",
+      "prev_id": "Q8",
+      "next_id": "Q10"
+    },
+    {
+      "question": "Have others who ate the same food as you experienced similar symptoms?",
+      "options": [
+        { "option1": "Yes", "score": 5 },
+        { "option2": "No", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q10",
+      "prev_id": "Q9",
+      "next_id": "Q11"
+    },
+    {
+      "question": "Do you have a fever?",
+      "options": [
+        { "option1": "High (above 101°F or 38.3°C)", "score": 5 },
+        { "option2": "Mild (below 101°F or 38.3°C)", "score": 3 },
+        { "option3": "No", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q11",
+      "prev_id": "Q10",
+      "next_id": "Q12"
+    },
+    {
+      "question": "Have you recently traveled to a region with questionable water or food safety?",
+      "options": [
+        { "option1": "Yes", "score": 5 },
+        { "option2": "No", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q12",
+      "prev_id": "Q11",
+      "next_id": "Q13"
+    },
+    {
+      "question": "Are you experiencing dizziness or lightheadedness?",
+      "options": [
+        { "option1": "Frequently", "score": 4 },
+        { "option2": "Occasionally", "score": 2 },
+        { "option3": "Never", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q13",
+      "prev_id": "Q12",
+      "next_id": "Q14"
+    },
+    {
+      "question": "Do you have muscle aches or weakness?",
+      "options": [
+        { "option1": "Severe", "score": 4 },
+        { "option2": "Mild", "score": 2 },
+        { "option3": "No", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q14",
+      "prev_id": "Q13",
+      "next_id": "Q15"
+    },
+    {
+      "question": "Do you have a history of food allergies?",
+      "options": [
+        { "option1": "Yes", "score": 2 },
+        { "option2": "No", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q15",
+      "prev_id": "Q14",
+      "next_id": "null"
+    }
+  ]
+}

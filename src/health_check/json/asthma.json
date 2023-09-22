@@ -1,0 +1,326 @@
+{
+    "type": "disease",
+    "name": "Asthma",
+    "question_options": [
+      {
+        "question": "Do you often experience shortness of breath?",
+        "options": [
+          {
+            "option1": "Yes, frequently",
+            "score": 5
+          },
+          {
+            "option2": "Occasionally",
+            "score": 3
+          },
+          {
+            "option3": "Rarely or never",
+            "score": 1
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q1",
+        "prev_id": "null",
+        "next_id": "Q2"
+      },
+      {
+        "question": "Have you been diagnosed with any respiratory diseases in the past?",
+        "options": [
+          {
+            "option1": "Yes, other than asthma",
+            "score": 4
+          },
+          {
+            "option2": "No",
+            "score": 1
+          },
+          {
+            "option3": "Yes, diagnosed with asthma before",
+            "score": 5
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q2",
+        "prev_id": "Q1",
+        "next_id": "Q3"
+      },
+      {
+        "question": "Do you experience chest tightness?",
+        "options": [
+          {
+            "option1": "Often",
+            "score": 5
+          },
+          {
+            "option2": "Sometimes",
+            "score": 3
+          },
+          {
+            "option3": "Never",
+            "score": 1
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q3",
+        "prev_id": "Q2",
+        "next_id": "Q4"
+      },
+      {
+        "question": "How often do you use a reliever inhaler?",
+        "options": [
+          {
+            "option1": "Daily or more",
+            "score": 5
+          },
+          {
+            "option2": "Weekly",
+            "score": 3
+          },
+          {
+            "option3": "Rarely or never",
+            "score": 1
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q4",
+        "prev_id": "Q3",
+        "next_id": "Q5"
+      },
+      {
+        "question": "Do you cough frequently, especially at night?",
+        "options": [
+          {
+            "option1": "Yes, almost every night",
+            "score": 5
+          },
+          {
+            "option2": "Occasionally",
+            "score": 3
+          },
+          {
+            "option3": "Rarely or never",
+            "score": 1
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q5",
+        "prev_id": "Q4",
+        "next_id": "Q6"
+      },
+      {
+        "question": "Are you a smoker?",
+        "options": [
+          {
+            "option1": "Yes, current smoker",
+            "score": 5
+          },
+          {
+            "option2": "Used to smoke",
+            "score": 4
+          },
+          {
+            "option3": "Never smoked",
+            "score": 1
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q6",
+        "prev_id": "Q5",
+        "next_id": "Q7"
+      },
+      {
+        "question": "Do your asthma symptoms worsen with physical activity?",
+        "options": [
+          {
+            "option1": "Yes, every time",
+            "score": 5
+          },
+          {
+            "option2": "Sometimes",
+            "score": 3
+          },
+          {
+            "option3": "No, not related to activity",
+            "score": 1
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q7",
+        "prev_id": "Q6",
+        "next_id": "Q8"
+      },
+      {
+        "question": "Is there a family history of asthma or other respiratory diseases?",
+        "options": [
+          {
+            "option1": "Yes, many family members",
+            "score": 5
+          },
+          {
+            "option2": "A few family members",
+            "score": 3
+          },
+          {
+            "option3": "No known family history",
+            "score": 1
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q8",
+        "prev_id": "Q7",
+        "next_id": "Q9"
+      },
+      {
+        "question": "Do you frequently encounter triggers like dust, pollen, or animal fur?",
+        "options": [
+          {
+            "option1": "Yes, almost daily",
+            "score": 5
+          },
+          {
+            "option2": "Occasionally",
+            "score": 3
+          },
+          {
+            "option3": "Rarely or never",
+            "score": 1
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q9",
+        "prev_id": "Q8",
+        "next_id": "Q10"
+      },
+      {
+        "question": "Do you have allergies or eczema?",
+        "options": [
+          {
+            "option1": "Yes, both",
+            "score": 5
+          },
+          {
+            "option2": "Allergies only",
+            "score": 4
+          },
+          {
+            "option3": "Eczema only",
+            "score": 3
+          },
+          {
+            "option4": "Neither",
+            "score": 1
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q10",
+        "prev_id": "Q9",
+        "next_id": "Q11"
+      },
+      {
+        "question": "Have you experienced severe asthma attacks in the past?",
+        "options": [
+          {
+            "option1": "Yes, multiple times",
+            "score": 5
+          },
+          {
+            "option2": "Once or twice",
+            "score": 4
+          },
+          {
+            "option3": "Never",
+            "score": 1
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q11",
+        "prev_id": "Q10",
+        "next_id": "Q12"
+      },
+      {
+        "question": "Do cold temperatures or viral infections trigger your asthma symptoms?",
+        "options": [
+          {
+            "option1": "Always",
+            "score": 5
+          },
+          {
+            "option2": "Sometimes",
+            "score": 3
+          },
+          {
+            "option3": "Rarely or never",
+            "score": 1
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q12",
+        "prev_id": "Q11",
+        "next_id": "Q13"
+      },
+      {
+        "question": "How would you rate your overall health?",
+        "options": [
+          {
+            "option1": "Poor",
+            "score": 5
+          },
+          {
+            "option2": "Average",
+            "score": 3
+          },
+          {
+            "option3": "Excellent",
+            "score": 1
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q13",
+        "prev_id": "Q12",
+        "next_id": "Q14"
+      },
+      {
+        "question": "Do strong emotions like stress or laughter trigger your asthma symptoms?",
+        "options": [
+          {
+            "option1": "Always",
+            "score": 5
+          },
+          {
+            "option2": "Sometimes",
+            "score": 3
+          },
+          {
+            "option3": "Rarely or never",
+            "score": 1
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q14",
+        "prev_id": "Q13",
+        "next_id": "Q15"
+      },
+      {
+        "question": "How often do you get asthma symptoms at night?",
+        "options": [
+          {
+            "option1": "3 or more times a week",
+            "score": 5
+          },
+          {
+            "option2": "1-2 times a week",
+            "score": 4
+          },
+          {
+            "option3": "Rarely or never",
+            "score": 1
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q15",
+        "prev_id": "Q14",
+        "next_id": "null"
+      }
+    ]
+  }
+  

@@ -1,0 +1,302 @@
+{
+    "type": "disease",
+    "name": "Gastric Ulcer",
+    "question_options": [
+      {
+        "question": "Do you often experience burning stomach pain?",
+        "options": [
+          {
+            "option1": "Never",
+            "score": "1"
+          },
+          {
+            "option2": "Occasionally",
+            "score": "3"
+          },
+          {
+            "option3": "Often",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q1",
+        "prev_id": "null",
+        "next_id": "Q2"
+      },
+      {
+        "question": "Is the pain improved by eating, drinking, or taking antacids?",
+        "options": [
+          {
+            "option1": "Yes, always",
+            "score": "1"
+          },
+          {
+            "option2": "Sometimes",
+            "score": "3"
+          },
+          {
+            "option3": "No, never",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q2",
+        "prev_id": "Q1",
+        "next_id": "Q3"
+      },
+      {
+        "question": "Do you experience bloating or belching?",
+        "options": [
+          {
+            "option1": "Rarely",
+            "score": "1"
+          },
+          {
+            "option2": "Occasionally",
+            "score": "3"
+          },
+          {
+            "option3": "Frequently",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q3",
+        "prev_id": "Q2",
+        "next_id": "Q4"
+      },
+      {
+        "question": "Have you felt a decrease in appetite due to pain?",
+        "options": [
+          {
+            "option1": "Never",
+            "score": "1"
+          },
+          {
+            "option2": "Sometimes",
+            "score": "3"
+          },
+          {
+            "option3": "Often",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q4",
+        "prev_id": "Q3",
+        "next_id": "Q5"
+      },
+      {
+        "question": "Have you noticed weight loss without trying?",
+        "options": [
+          {
+            "option1": "No",
+            "score": "1"
+          },
+          {
+            "option2": "Yes",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q5",
+        "prev_id": "Q4",
+        "next_id": "Q6"
+      },
+      {
+        "question": "Do you experience nausea or vomiting?",
+        "options": [
+          {
+            "option1": "Rarely",
+            "score": "2"
+          },
+          {
+            "option2": "Occasionally",
+            "score": "3"
+          },
+          {
+            "option3": "Frequently",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q6",
+        "prev_id": "Q5",
+        "next_id": "Q7"
+      },
+      {
+        "question": "Have you noticed any black or tarry stools?",
+        "options": [
+          {
+            "option1": "No",
+            "score": "1"
+          },
+          {
+            "option2": "Yes",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q7",
+        "prev_id": "Q6",
+        "next_id": "Q8"
+      },
+      {
+        "question": "Have you experienced heartburn or acid reflux?",
+        "options": [
+          {
+            "option1": "Rarely",
+            "score": "2"
+          },
+          {
+            "option2": "Occasionally",
+            "score": "3"
+          },
+          {
+            "option3": "Frequently",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q8",
+        "prev_id": "Q7",
+        "next_id": "Q9"
+      },
+      {
+        "question": "Do you consume NSAIDs (like ibuprofen) regularly?",
+        "options": [
+          {
+            "option1": "No",
+            "score": "1"
+          },
+          {
+            "option2": "Yes, occasionally",
+            "score": "3"
+          },
+          {
+            "option3": "Yes, frequently",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q9",
+        "prev_id": "Q8",
+        "next_id": "Q10"
+      },
+      {
+        "question": "Do you smoke cigarettes?",
+        "options": [
+          {
+            "option1": "No",
+            "score": "1"
+          },
+          {
+            "option2": "Yes",
+            "score": "4"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q10",
+        "prev_id": "Q9",
+        "next_id": "Q11"
+      },
+      {
+        "question": "Is there a history of gastric ulcers in your family?",
+        "options": [
+          {
+            "option1": "No",
+            "score": "1"
+          },
+          {
+            "option2": "Yes",
+            "score": "3"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q11",
+        "prev_id": "Q10",
+        "next_id": "Q12"
+      },
+      {
+        "question": "Do you consume alcohol regularly?",
+        "options": [
+          {
+            "option1": "No",
+            "score": "1"
+          },
+          {
+            "option2": "Yes, occasionally",
+            "score": "3"
+          },
+          {
+            "option3": "Yes, frequently",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q12",
+        "prev_id": "Q11",
+        "next_id": "Q13"
+      },
+      {
+        "question": "Have you been diagnosed with H. pylori infection?",
+        "options": [
+          {
+            "option1": "No",
+            "score": "1"
+          },
+          {
+            "option2": "Yes",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q13",
+        "prev_id": "Q12",
+        "next_id": "Q14"
+      },
+      {
+        "question": "Have you had gastric ulcers in the past?",
+        "options": [
+          {
+            "option1": "No",
+            "score": "1"
+          },
+          {
+            "option2": "Yes, once",
+            "score": "4"
+          },
+          {
+            "option3": "Yes, multiple times",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q14",
+        "prev_id": "Q13",
+        "next_id": "Q15"
+      },
+      {
+        "question": "How would you rate your overall stress levels?",
+        "options": [
+          {
+            "option1": "Low",
+            "score": "1"
+          },
+          {
+            "option2": "Moderate",
+            "score": "3"
+          },
+          {
+            "option3": "High",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q15",
+        "prev_id": "Q14",
+        "next_id": "null"
+      }
+    ]
+  }
+  

@@ -1,0 +1,180 @@
+{
+    "type": "disease",
+    "name": "Rheumatoid Arthritis",
+    "question_options": [
+      {
+        "question": "Do you experience joint pain and stiffness, especially in the morning or after periods of inactivity?",
+        "options": [
+          {"option1": "Yes, frequently", "score": "5"},
+          {"option2": "Occasionally", "score": "3"},
+          {"option3": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q1",
+        "prev_id": "null",
+        "next_id": "Q2"
+      },
+      {
+        "question": "Are the joints on both sides of your body affected (e.g., both wrists or knees)?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "1"},
+          {"option3": "I'm not sure", "score": "2"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q2",
+        "prev_id": "Q1",
+        "next_id": "Q3"
+      },
+      {
+        "question": "Do you experience warmth, redness, and swelling over the affected joints?",
+        "options": [
+          {"option1": "Yes, frequently", "score": "5"},
+          {"option2": "Occasionally", "score": "3"},
+          {"option3": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q3",
+        "prev_id": "Q2",
+        "next_id": "Q4"
+      },
+      {
+        "question": "Have you noticed any fatigue or general feeling of being unwell?",
+        "options": [
+          {"option1": "Yes, frequently", "score": "4"},
+          {"option2": "Occasionally", "score": "2"},
+          {"option3": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q4",
+        "prev_id": "Q3",
+        "next_id": "Q5"
+      },
+      {
+        "question": "Do you have a family history of rheumatoid arthritis or other autoimmune diseases?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"},
+          {"option3": "I'm not sure", "score": "1"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q5",
+        "prev_id": "Q4",
+        "next_id": "Q6"
+      },
+      {
+        "question": "Have you noticed any weight loss without trying?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q6",
+        "prev_id": "Q5",
+        "next_id": "Q7"
+      },
+      {
+        "question": "Do you have difficulty sleeping due to joint pain?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q7",
+        "prev_id": "Q6",
+        "next_id": "Q8"
+      },
+      {
+        "question": "Are your symptoms improving or getting worse?",
+        "options": [
+          {"option1": "Improving", "score": "1"},
+          {"option2": "Getting worse", "score": "4"},
+          {"option3": "They're the same", "score": "2"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q8",
+        "prev_id": "Q7",
+        "next_id": "Q9"
+      },
+      {
+        "question": "Have you been diagnosed with another autoimmune disease?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q9",
+        "prev_id": "Q8",
+        "next_id": "Q10"
+      },
+      {
+        "question": "Do you smoke or have you smoked in the past?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q10",
+        "prev_id": "Q9",
+        "next_id": "Q11"
+      },
+      {
+        "question": "Do you experience any dryness in the eyes or mouth?",
+        "options": [
+          {"option1": "Yes", "score": "2"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q11",
+        "prev_id": "Q10",
+        "next_id": "Q12"
+      },
+      {
+        "question": "Have you had joint infections or injuries in the past?",
+        "options": [
+          {"option1": "Yes", "score": "2"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q12",
+        "prev_id": "Q11",
+        "next_id": "Q13"
+      },
+      {
+        "question": "Have you noticed nodules or lumps under your skin, especially near the affected joints?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q13",
+        "prev_id": "Q12",
+        "next_id": "Q14"
+      },
+      {
+        "question": "Have you had any blood tests indicating rheumatoid arthritis (like positive RF or Anti-CCP)?",
+        "options": [
+          {"option1": "Yes", "score": "5"},
+          {"option2": "No", "score": "0"},
+          {"option3": "Not tested", "score": "1"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q14",
+        "prev_id": "Q13",
+        "next_id": "Q15"
+      },
+      {
+        "question": "Have you ever used any medications to treat these symptoms?",
+        "options": [
+          {"option1": "Yes, and they helped", "score": "2"},
+          {"option2": "Yes, but they didn't help", "score": "3"},
+          {"option3": "No, I haven't tried any", "score": "1"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q15",
+        "prev_id": "Q14",
+        "next_id": "null"
+      }
+    ]
+  }
+  

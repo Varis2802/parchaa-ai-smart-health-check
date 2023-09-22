@@ -1,0 +1,173 @@
+{
+  "type": "disease",
+  "name": "diabetes",
+  "question_options": [
+    {
+      "question": "Have you experienced frequent urination?",
+      "options": [
+        { "option1": "Rarely or never", "score": 0 },
+        { "option2": "Occasionally", "score": 1 },
+        { "option3": "Often", "score": 3 },
+        { "option4": "Almost all the time", "score": 5 }
+      ],
+      "question_id": "Q1",
+      "prev_id": "null",
+      "next_id": "Q2"
+    },
+    {
+      "question": "Do you often feel thirsty, even after drinking water?",
+      "options": [
+        { "option1": "Rarely or never", "score": 0 },
+        { "option2": "Occasionally", "score": 1 },
+        { "option3": "Often", "score": 3 },
+        { "option4": "Almost all the time", "score": 5 }
+      ],
+      "question_id": "Q2",
+      "prev_id": "Q1",
+      "next_id": "Q3"
+    },
+    {
+      "question": "Have you noticed any sudden weight loss?",
+      "options": [
+        { "option1": "No", "score": 0 },
+        { "option2": "Yes, slightly", "score": 2 },
+        { "option3": "Yes, significantly", "score": 5 }
+      ],
+      "question_id": "Q3",
+      "prev_id": "Q2",
+      "next_id": "Q4"
+    },
+    {
+      "question": "Do you often feel fatigued or tired?",
+      "options": [
+        { "option1": "Rarely or never", "score": 0 },
+        { "option2": "Occasionally", "score": 1 },
+        { "option3": "Often", "score": 3 },
+        { "option4": "Almost all the time", "score": 5 }
+      ],
+      "question_id": "Q4",
+      "prev_id": "Q3",
+      "next_id": "Q5"
+    },
+    {
+      "question": "Have you noticed any blurriness in your vision?",
+      "options": [
+        { "option1": "No", "score": 0 },
+        { "option2": "Occasionally", "score": 2 },
+        { "option3": "Frequently", "score": 5 }
+      ],
+      "question_id": "Q5",
+      "prev_id": "Q4",
+      "next_id": "Q6"
+    },
+    {
+      "question": "Are there instances of diabetes in your family?",
+      "options": [
+        { "option1": "No", "score": 0 },
+        { "option2": "Yes, distant relatives", "score": 2 },
+        { "option3": "Yes, immediate family members", "score": 5 }
+      ],
+      "question_id": "Q6",
+      "prev_id": "Q5",
+      "next_id": "Q7"
+    },
+    {
+      "question": "Do you have wounds or cuts that take a long time to heal?",
+      "options": [
+        { "option1": "No", "score": 0 },
+        { "option2": "Yes, occasionally", "score": 2 },
+        { "option3": "Yes, frequently", "score": 5 }
+      ],
+      "question_id": "Q7",
+      "prev_id": "Q6",
+      "next_id": "Q8"
+    },
+    {
+      "question": "Have you experienced tingling or numbness in your hands or feet?",
+      "options": [
+        { "option1": "No", "score": 0 },
+        { "option2": "Occasionally", "score": 2 },
+        { "option3": "Frequently", "score": 5 }
+      ],
+      "question_id": "Q8",
+      "prev_id": "Q7",
+      "next_id": "Q9"
+    },
+    {
+      "question": "Do you have patches of darkened skin, especially in neck or armpit areas?",
+      "options": [
+        { "option1": "No", "score": 0 },
+        { "option2": "Yes", "score": 5 }
+      ],
+      "question_id": "Q9",
+      "prev_id": "Q8",
+      "next_id": "Q10"
+    },
+    {
+      "question": "How often do you exercise or engage in physical activity?",
+      "options": [
+        { "option1": "Rarely or never", "score": 5 },
+        { "option2": "Once a week", "score": 3 },
+        { "option3": "2-3 times a week", "score": 1 },
+        { "option4": "4 or more times a week", "score": 0 }
+      ],
+      "question_id": "Q10",
+      "prev_id": "Q9",
+      "next_id": "Q11"
+    },
+    {
+      "question": "Do you smoke or use tobacco products?",
+      "options": [
+        { "option1": "No", "score": 0 },
+        { "option2": "Yes, occasionally", "score": 3 },
+        { "option3": "Yes, regularly", "score": 5 }
+      ],
+      "question_id": "Q11",
+      "prev_id": "Q10",
+      "next_id": "Q12"
+    },
+    {
+      "question": "Is your Body Mass Index (BMI) above 25?",
+      "options": [
+        { "option1": "No", "score": 0 },
+        { "option2": "Yes, slightly above 25", "score": 3 },
+        { "option3": "Yes, significantly above 25", "score": 5 }
+      ],
+      "question_id": "Q12",
+      "prev_id": "Q11",
+      "next_id": "Q13"
+    },
+    {
+      "question": "Have you ever been diagnosed with high blood pressure?",
+      "options": [
+        { "option1": "No", "score": 0 },
+        { "option2": "Yes", "score": 5 }
+      ],
+      "question_id": "Q13",
+      "prev_id": "Q12",
+      "next_id": "Q14"
+    },
+    {
+      "question": "How often do you consume foods or drinks with high sugar content?",
+      "options": [
+        { "option1": "Rarely or never", "score": 0 },
+        { "option2": "Occasionally", "score": 1 },
+        { "option3": "Often", "score": 3 },
+        { "option4": "Almost all the time", "score": 5 }
+      ],
+      "question_id": "Q14",
+      "prev_id": "Q13",
+      "next_id": "Q15"
+    },
+    {
+      "question": "Have you ever been told by a healthcare provider that your blood sugar is higher than normal?",
+      "options": [
+        { "option1": "No", "score": 0 },
+        { "option2": "Yes", "score": 5 }
+      ],
+      "question_id": "Q15",
+      "prev_id": "Q14",
+      "next_id": "null"
+    }
+  ]
+}

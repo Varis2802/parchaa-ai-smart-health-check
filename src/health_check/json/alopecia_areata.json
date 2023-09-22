@@ -1,0 +1,174 @@
+{
+    "type": "disease",
+    "name": "Alopecia Areata (Autoimmune hair loss)",
+    "question_options": [
+      {
+        "question": "Have you noticed round or oval patches of hair loss on your scalp or beard?",
+        "options": [
+          {"option1": "Yes", "score": "5"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q1",
+        "prev_id": "null",
+        "next_id": "Q2"
+      },
+      {
+        "question": "Is there a history of autoimmune diseases in your family?",
+        "options": [
+          {"option1": "Yes", "score": "5"},
+          {"option2": "No", "score": "1"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q2",
+        "prev_id": "Q1",
+        "next_id": "Q3"
+      },
+      {
+        "question": "Have you been diagnosed with any autoimmune diseases?",
+        "options": [
+          {"option1": "Yes", "score": "5"},
+          {"option2": "No", "score": "1"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q3",
+        "prev_id": "Q2",
+        "next_id": "Q4"
+      },
+      {
+        "question": "Do you experience tingling sensations in the affected hair loss areas?",
+        "options": [
+          {"option1": "Frequently", "score": "4"},
+          {"option2": "Occasionally", "score": "3"},
+          {"option3": "Never", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q4",
+        "prev_id": "Q3",
+        "next_id": "Q5"
+      },
+      {
+        "question": "Have you had any recent infections, vaccinations, or physical trauma?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "1"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q5",
+        "prev_id": "Q4",
+        "next_id": "Q6"
+      },
+      {
+        "question": "Do you have a history of allergies or atopic dermatitis?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "1"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q6",
+        "prev_id": "Q5",
+        "next_id": "Q7"
+      },
+      {
+        "question": "Have you noticed white spots on your nails or dents?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "1"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q7",
+        "prev_id": "Q6",
+        "next_id": "Q8"
+      },
+      {
+        "question": "Do you have brittle, ridged, or spoon-shaped nails?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "1"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q8",
+        "prev_id": "Q7",
+        "next_id": "Q9"
+      },
+      {
+        "question": "Have you recently experienced rapid weight loss or stress?",
+        "options": [
+          {"option1": "Yes", "score": "5"},
+          {"option2": "No", "score": "1"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q9",
+        "prev_id": "Q8",
+        "next_id": "Q10"
+      },
+      {
+        "question": "Do you have a history of thyroid disorders or imbalances?",
+        "options": [
+          {"option1": "Yes", "score": "5"},
+          {"option2": "No", "score": "1"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q10",
+        "prev_id": "Q9",
+        "next_id": "Q11"
+      },
+      {
+        "question": "Do you experience fatigue, joint pain, or any other systemic symptoms?",
+        "options": [
+          {"option1": "Yes", "score": "5"},
+          {"option2": "No", "score": "1"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q11",
+        "prev_id": "Q10",
+        "next_id": "Q12"
+      },
+      {
+        "question": "Have you noticed any changes in the color or texture of your skin around the areas of hair loss?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "1"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q12",
+        "prev_id": "Q11",
+        "next_id": "Q13"
+      },
+      {
+        "question": "Have you used any treatments or medications for hair loss?",
+        "options": [
+          {"option1": "Yes, without consulting a dermatologist", "score": "4"},
+          {"option2": "Yes, prescribed by a dermatologist", "score": "2"},
+          {"option3": "No", "score": "1"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q13",
+        "prev_id": "Q12",
+        "next_id": "Q14"
+      },
+      {
+        "question": "Do you frequently expose your scalp to harmful chemicals (like hair dyes, bleaching)?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "1"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q14",
+        "prev_id": "Q13",
+        "next_id": "Q15"
+      },
+      {
+        "question": "Have you had any scalp injuries or surgeries recently?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q15",
+        "prev_id": "Q14",
+        "next_id": "null"
+      }
+    ]
+  }
+  

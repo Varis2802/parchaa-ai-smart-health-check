@@ -1,0 +1,187 @@
+{
+    "type": "organ",
+    "name": "Heart-Health",
+    "question_options": [
+      {
+        "question": "Do you smoke?",
+        "options": [
+          {"option1": "Never smoked", "score": 0},
+          {"option2": "Occasionally", "score": 3},
+          {"option3": "Daily", "score": 5}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q1",
+        "prev_id": "null",
+        "next_id": "Q2"
+      },
+      {
+        "question": "How often do you exercise?",
+        "options": [
+          {"option1": "Daily", "score": 0},
+          {"option2": "Weekly", "score": 2},
+          {"option3": "Rarely", "score": 5}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q2",
+        "prev_id": "Q1",
+        "next_id": "Q3"
+      },
+      {
+        "question": "What is your blood pressure generally?",
+        "options": [
+          {"option1": "Normal", "score": 0},
+          {"option2": "Slightly elevated", "score": 3},
+          {"option3": "High", "score": 5}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q3",
+        "prev_id": "Q2",
+        "next_id": "Q4"
+      },
+      {
+        "question": "Do you have a family history of heart disease?",
+        "options": [
+          {"option1": "No", "score": 0},
+          {"option2": "Yes, distant relatives", "score": 2},
+          {"option3": "Yes, immediate family", "score": 5}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q4",
+        "prev_id": "Q3",
+        "next_id": "Q5"
+      },
+      {
+        "question": "How would you describe your diet?",
+        "options": [
+          {"option1": "Healthy and balanced", "score": 0},
+          {"option2": "Occasional junk food", "score": 3},
+          {"option3": "Primarily junk food", "score": 5}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q5",
+        "prev_id": "Q4",
+        "next_id": "Q6"
+      },
+      {
+        "question": "Do you consume alcohol?",
+        "options": [
+          {"option1": "Never", "score": 0},
+          {"option2": "Occasionally", "score": 2},
+          {"option3": "Frequently", "score": 4}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q6",
+        "prev_id": "Q5",
+        "next_id": "Q7"
+      },
+      {
+        "question": "Do you have diabetes?",
+        "options": [
+          {"option1": "No", "score": 0},
+          {"option2": "Pre-diabetes", "score": 3},
+          {"option3": "Yes", "score": 5}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q7",
+        "prev_id": "Q6",
+        "next_id": "Q8"
+      },
+      {
+        "question": "How often do you feel stressed?",
+        "options": [
+          {"option1": "Rarely", "score": 0},
+          {"option2": "Sometimes", "score": 3},
+          {"option3": "Often", "score": 5}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q8",
+        "prev_id": "Q7",
+        "next_id": "Q9"
+      },
+      {
+        "question": "What's your cholesterol level?",
+        "options": [
+          {"option1": "Normal", "score": 0},
+          {"option2": "Slightly elevated", "score": 3},
+          {"option3": "High", "score": 5}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q9",
+        "prev_id": "Q8",
+        "next_id": "Q10"
+      },
+      {
+        "question": "How often do you check your heart health?",
+        "options": [
+          {"option1": "Annually", "score": 0},
+          {"option2": "Once in few years", "score": 2},
+          {"option3": "Never", "score": 5}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q10",
+        "prev_id": "Q9",
+        "next_id": "Q11"
+      },
+      {
+        "question": "Have you ever had a heart-related surgery or procedure?",
+        "options": [
+          {"option1": "No", "score": 0},
+          {"option2": "Yes, minor procedure", "score": 3},
+          {"option3": "Yes, major surgery", "score": 5}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q11",
+        "prev_id": "Q10",
+        "next_id": "Q12"
+      },
+      {
+        "question": "Do you have sleep apnea or sleep disorders?",
+        "options": [
+          {"option1": "No", "score": 0},
+          {"option2": "Yes, mild", "score": 3},
+          {"option3": "Yes, severe", "score": 5}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q12",
+        "prev_id": "Q11",
+        "next_id": "Q13"
+      },
+      {
+        "question": "What is your Body Mass Index (BMI)?",
+        "options": [
+          {"option1": "Normal", "score": 0},
+          {"option2": "Overweight", "score": 3},
+          {"option3": "Obese", "score": 5}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q13",
+        "prev_id": "Q12",
+        "next_id": "Q14"
+      },
+      {
+        "question": "Do you experience chest pains or shortness of breath?",
+        "options": [
+          {"option1": "Never", "score": 0},
+          {"option2": "Occasionally", "score": 3},
+          {"option3": "Frequently", "score": 5}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q14",
+        "prev_id": "Q13",
+        "next_id": "Q15"
+      },
+      {
+        "question": "How old are you?",
+        "options": [
+          {"option1": "Below 40", "score": 0},
+          {"option2": "40-60", "score": 3},
+          {"option3": "Above 60", "score": 5}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q15",
+        "prev_id": "Q14",
+        "next_id": "null"
+      }
+    ]
+  }
+  

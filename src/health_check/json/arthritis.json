@@ -1,0 +1,176 @@
+{
+    "type": "disease",
+    "name": "Arthritis",
+    "question_options": [
+      {
+        "question": "Do you often experience joint pain or stiffness?",
+        "options": [
+          {"option1": "Frequently", "score": "4"},
+          {"option2": "Occasionally", "score": "2"},
+          {"option3": "Rarely/Never", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q1",
+        "prev_id": "null",
+        "next_id": "Q2"
+      },
+      {
+        "question": "Is there a family history of arthritis?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q2",
+        "prev_id": "Q1",
+        "next_id": "Q3"
+      },
+      {
+        "question": "Have you ever had a joint injury?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q3",
+        "prev_id": "Q2",
+        "next_id": "Q4"
+      },
+      {
+        "question": "Do you experience joint pain that worsens after rest or inactivity?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q4",
+        "prev_id": "Q3",
+        "next_id": "Q5"
+      },
+      {
+        "question": "How would you describe your overall level of physical activity?",
+        "options": [
+          {"option1": "Very Active", "score": "0"},
+          {"option2": "Moderately Active", "score": "2"},
+          {"option3": "Sedentary", "score": "4"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q5",
+        "prev_id": "Q4",
+        "next_id": "Q6"
+      },
+      {
+        "question": "Have you noticed any redness, warmth, or swelling in the joints?",
+        "options": [
+          {"option1": "Frequently", "score": "4"},
+          {"option2": "Occasionally", "score": "2"},
+          {"option3": "Never", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q6",
+        "prev_id": "Q5",
+        "next_id": "Q7"
+      },
+      {
+        "question": "Do you have difficulty moving a joint or the limited range of motion?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q7",
+        "prev_id": "Q6",
+        "next_id": "Q8"
+      },
+      {
+        "question": "Have you ever been diagnosed with psoriasis or another skin condition?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q8",
+        "prev_id": "Q7",
+        "next_id": "Q9"
+      },
+      {
+        "question": "Do you experience chronic fatigue or tiredness?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q9",
+        "prev_id": "Q8",
+        "next_id": "Q10"
+      },
+      {
+        "question": "Have you experienced a sudden unexplained weight loss?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q10",
+        "prev_id": "Q9",
+        "next_id": "Q11"
+      },
+      {
+        "question": "How would you describe your diet?",
+        "options": [
+          {"option1": "Balanced and healthy", "score": "0"},
+          {"option2": "Occasional junk food", "score": "2"},
+          {"option3": "High in processed foods", "score": "4"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q11",
+        "prev_id": "Q10",
+        "next_id": "Q12"
+      },
+      {
+        "question": "Do you smoke?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q12",
+        "prev_id": "Q11",
+        "next_id": "Q13"
+      },
+      {
+        "question": "Do you frequently consume alcohol?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q13",
+        "prev_id": "Q12",
+        "next_id": "Q14"
+      },
+      {
+        "question": "Are you overweight or obese?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q14",
+        "prev_id": "Q13",
+        "next_id": "Q15"
+      },
+      {
+        "question": "Have you ever been diagnosed with an autoimmune disorder?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q15",
+        "prev_id": "Q14",
+        "next_id": "null"
+      }
+    ]
+  }
+  

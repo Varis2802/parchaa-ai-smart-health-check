@@ -1,0 +1,181 @@
+{
+  "type": "disease",
+  "name": "Knee Ligament Injury",
+  "question_options": [
+    {
+      "question": "Have you experienced any recent trauma or impact to the knee?",
+      "options": [
+        { "option1": "Yes, severe impact", "score": "5" },
+        { "option2": "Mild impact", "score": "3" },
+        { "option3": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q1",
+      "prev_id": "null",
+      "next_id": "Q2"
+    },
+    {
+      "question": "Did you hear or feel a 'pop' in your knee during the injury?",
+      "options": [
+        { "option1": "Yes", "score": "5" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q2",
+      "prev_id": "Q1",
+      "next_id": "Q3"
+    },
+    {
+      "question": "Is there visible swelling around the knee?",
+      "options": [
+        { "option1": "Severe swelling", "score": "5" },
+        { "option2": "Mild swelling", "score": "3" },
+        { "option3": "No swelling", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q3",
+      "prev_id": "Q2",
+      "next_id": "Q4"
+    },
+    {
+      "question": "Are you experiencing instability or feeling that your knee might 'give out'?",
+      "options": [
+        { "option1": "Frequently", "score": "5" },
+        { "option2": "Occasionally", "score": "3" },
+        { "option3": "Never", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q4",
+      "prev_id": "Q3",
+      "next_id": "Q5"
+    },
+    {
+      "question": "Do you participate in high-impact sports or activities?",
+      "options": [
+        { "option1": "Regularly", "score": "4" },
+        { "option2": "Occasionally", "score": "2" },
+        { "option3": "Never", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q5",
+      "prev_id": "Q4",
+      "next_id": "Q6"
+    },
+    {
+      "question": "Have you suffered from any previous knee injuries?",
+      "options": [
+        { "option1": "Multiple times", "score": "5" },
+        { "option2": "Once", "score": "3" },
+        { "option3": "Never", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q6",
+      "prev_id": "Q5",
+      "next_id": "Q7"
+    },
+    {
+      "question": "Do you experience pain when trying to straighten your knee?",
+      "options": [
+        { "option1": "Severe pain", "score": "5" },
+        { "option2": "Mild pain", "score": "3" },
+        { "option3": "No pain", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q7",
+      "prev_id": "Q6",
+      "next_id": "Q8"
+    },
+    {
+      "question": "Do you feel any tenderness when you touch the knee?",
+      "options": [
+        { "option1": "Yes", "score": "4" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q8",
+      "prev_id": "Q7",
+      "next_id": "Q9"
+    },
+    {
+      "question": "Is there any limited motion or inability to move the knee?",
+      "options": [
+        { "option1": "Cannot move at all", "score": "5" },
+        { "option2": "Limited movement", "score": "3" },
+        { "option3": "Full movement", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q9",
+      "prev_id": "Q8",
+      "next_id": "Q10"
+    },
+    {
+      "question": "Have you undergone any surgery or medical procedure on the knee?",
+      "options": [
+        { "option1": "Yes, recently", "score": "5" },
+        { "option2": "Long ago", "score": "2" },
+        { "option3": "Never", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q10",
+      "prev_id": "Q9",
+      "next_id": "Q11"
+    },
+    {
+      "question": "Do you engage in regular strengthening and flexibility exercises for your knee?",
+      "options": [
+        { "option1": "Yes", "score": "0" },
+        { "option2": "No", "score": "2" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q11",
+      "prev_id": "Q10",
+      "next_id": "Q12"
+    },
+    {
+      "question": "Do you wear protective gear when participating in sports or physical activities?",
+      "options": [
+        { "option1": "Always", "score": "0" },
+        { "option2": "Sometimes", "score": "2" },
+        { "option3": "Never", "score": "5" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q12",
+      "prev_id": "Q11",
+      "next_id": "Q13"
+    },
+    {
+      "question": "Do you feel any numbness or tingling around the knee?",
+      "options": [
+        { "option1": "Yes", "score": "4" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q13",
+      "prev_id": "Q12",
+      "next_id": "Q14"
+    },
+    {
+      "question": "Is the skin around the knee red or warm to the touch?",
+      "options": [
+        { "option1": "Yes", "score": "4" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q14",
+      "prev_id": "Q13",
+      "next_id": "Q15"
+    },
+    {
+      "question": "Have you recently gained weight or are you overweight?",
+      "options": [
+        { "option1": "Yes, recently gained weight", "score": "4" },
+        { "option2": "Overweight", "score": "3" },
+        { "option3": "Normal weight", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q15",
+      "prev_id": "Q14",
+      "next_id": "null"
+    }
+  ]
+}

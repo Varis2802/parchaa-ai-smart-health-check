@@ -1,0 +1,176 @@
+{
+    "type": "disease",
+    "name": "Gout",
+    "question_options": [
+      {
+        "question": "Have you experienced sudden, severe pain in a joint, typically the big toe?",
+        "options": [
+          {"option1": "Yes", "score": "5"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q1",
+        "prev_id": "null",
+        "next_id": "Q2"
+      },
+      {
+        "question": "Do you consume alcohol frequently?",
+        "options": [
+          {"option1": "Regularly", "score": "4"},
+          {"option2": "Occasionally", "score": "2"},
+          {"option3": "Rarely", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q2",
+        "prev_id": "Q1",
+        "next_id": "Q3"
+      },
+      {
+        "question": "Do you eat a diet high in meat and seafood?",
+        "options": [
+          {"option1": "Yes, regularly", "score": "4"},
+          {"option2": "Occasionally", "score": "2"},
+          {"option3": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q3",
+        "prev_id": "Q2",
+        "next_id": "Q4"
+      },
+      {
+        "question": "Are you on medications like thiazide diuretics or aspirin?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q4",
+        "prev_id": "Q3",
+        "next_id": "Q5"
+      },
+      {
+        "question": "Do you have a family history of gout?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q5",
+        "prev_id": "Q4",
+        "next_id": "Q6"
+      },
+      {
+        "question": "Have you had kidney problems?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q6",
+        "prev_id": "Q5",
+        "next_id": "Q7"
+      },
+      {
+        "question": "Do you experience redness and tenderness in affected areas?",
+        "options": [
+          {"option1": "Frequently", "score": "4"},
+          {"option2": "Rarely", "score": "1"},
+          {"option3": "Never", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q7",
+        "prev_id": "Q6",
+        "next_id": "Q8"
+      },
+      {
+        "question": "Have you experienced limited motion in the affected joints?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q8",
+        "prev_id": "Q7",
+        "next_id": "Q9"
+      },
+      {
+        "question": "Do you consume sweetened drinks high in fructose regularly?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q9",
+        "prev_id": "Q8",
+        "next_id": "Q10"
+      },
+      {
+        "question": "Have you ever been diagnosed with high blood pressure?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q10",
+        "prev_id": "Q9",
+        "next_id": "Q11"
+      },
+      {
+        "question": "Do you have a history of recent surgery or trauma?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q11",
+        "prev_id": "Q10",
+        "next_id": "Q12"
+      },
+      {
+        "question": "Are you male?",
+        "options": [
+          {"option1": "Yes", "score": "2"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q12",
+        "prev_id": "Q11",
+        "next_id": "Q13"
+      },
+      {
+        "question": "Do you suffer from metabolic disorders, like diabetes or metabolic syndrome?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q13",
+        "prev_id": "Q12",
+        "next_id": "Q14"
+      },
+      {
+        "question": "Are you over the age of 40?",
+        "options": [
+          {"option1": "Yes", "score": "2"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q14",
+        "prev_id": "Q13",
+        "next_id": "Q15"
+      },
+      {
+        "question": "Do you consume high-purine foods like organ meats or certain types of seafood (e.g., mussels, scallops)?",
+        "options": [
+          {"option1": "Regularly", "score": "3"},
+          {"option2": "Occasionally", "score": "1"},
+          {"option3": "Never", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q15",
+        "prev_id": "Q14",
+        "next_id": "null"
+      }
+    ]
+  }
+  

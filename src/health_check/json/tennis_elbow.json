@@ -1,0 +1,180 @@
+{
+    "type": "disease",
+    "name": "Tennis Elbow",
+    "question_options": [
+      {
+        "question": "Do you experience pain on the outer part of your elbow?",
+        "options": [
+          {"option1": "Yes, frequently", "score": "5"},
+          {"option2": "Sometimes", "score": "3"},
+          {"option3": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q1",
+        "prev_id": "null",
+        "next_id": "Q2"
+      },
+      {
+        "question": "Do you engage in repetitive forearm activities (e.g., using a computer mouse, racket sports)?",
+        "options": [
+          {"option1": "Yes, daily", "score": "4"},
+          {"option2": "Occasionally", "score": "2"},
+          {"option3": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q2",
+        "prev_id": "Q1",
+        "next_id": "Q3"
+      },
+      {
+        "question": "Is there pain when lifting objects with your affected arm?",
+        "options": [
+          {"option1": "Yes, always", "score": "5"},
+          {"option2": "Sometimes", "score": "3"},
+          {"option3": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q3",
+        "prev_id": "Q2",
+        "next_id": "Q4"
+      },
+      {
+        "question": "Do you feel stiffness or trouble in straightening your arm?",
+        "options": [
+          {"option1": "Yes, frequently", "score": "4"},
+          {"option2": "Occasionally", "score": "2"},
+          {"option3": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q4",
+        "prev_id": "Q3",
+        "next_id": "Q5"
+      },
+      {
+        "question": "Do you have a weakened grip or difficulty in holding items?",
+        "options": [
+          {"option1": "Yes, always", "score": "4"},
+          {"option2": "Sometimes", "score": "2"},
+          {"option3": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q5",
+        "prev_id": "Q4",
+        "next_id": "Q6"
+      },
+      {
+        "question": "Have you recently increased the intensity or frequency of arm activities?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q6",
+        "prev_id": "Q5",
+        "next_id": "Q7"
+      },
+      {
+        "question": "Have you experienced any trauma or direct blow to the elbow?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q7",
+        "prev_id": "Q6",
+        "next_id": "Q8"
+      },
+      {
+        "question": "Do you regularly participate in racket sports or activities requiring a strong grip?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q8",
+        "prev_id": "Q7",
+        "next_id": "Q9"
+      },
+      {
+        "question": "Is there tenderness or a burning sensation on the outer part of the elbow?",
+        "options": [
+          {"option1": "Yes, frequently", "score": "3"},
+          {"option2": "Occasionally", "score": "1"},
+          {"option3": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q9",
+        "prev_id": "Q8",
+        "next_id": "Q10"
+      },
+      {
+        "question": "Do you have a previous history of tennis elbow or other elbow problems?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q10",
+        "prev_id": "Q9",
+        "next_id": "Q11"
+      },
+      {
+        "question": "Do you feel pain when shaking hands or squeezing objects?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q11",
+        "prev_id": "Q10",
+        "next_id": "Q12"
+      },
+      {
+        "question": "Do you often rest your elbow on hard surfaces?",
+        "options": [
+          {"option1": "Yes", "score": "2"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q12",
+        "prev_id": "Q11",
+        "next_id": "Q13"
+      },
+      {
+        "question": "Have you noticed any swelling around your elbow?",
+        "options": [
+          {"option1": "Yes", "score": "2"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q13",
+        "prev_id": "Q12",
+        "next_id": "Q14"
+      },
+      {
+        "question": "Do you do exercises to strengthen your forearm muscles?",
+        "options": [
+          {"option1": "Yes, regularly", "score": "0"},
+          {"option2": "Occasionally", "score": "1"},
+          {"option3": "Never", "score": "2"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q14",
+        "prev_id": "Q13",
+        "next_id": "Q15"
+      },
+      {
+        "question": "Have you tried treatments such as physiotherapy, braces, or medications for your symptoms?",
+        "options": [
+          {"option1": "Yes, and they helped", "score": "1"},
+          {"option2": "Yes, but they didn't help", "score": "3"},
+          {"option3": "No, I haven't tried any", "score": "2"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q15",
+        "prev_id": "Q14",
+        "next_id": "null"
+      }
+    ]
+  }
+  

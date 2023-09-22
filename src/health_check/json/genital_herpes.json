@@ -1,0 +1,173 @@
+{
+    "type": "disease",
+    "name": "Genital Herpes",
+    "question_options": [
+      {
+        "question": "Have you ever been diagnosed with genital herpes before?",
+        "options": [
+          {"option1": "Yes", "score": 5},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q1",
+        "prev_id": "null",
+        "next_id": "Q2"
+      },
+      {
+        "question": "Have you ever had sexual contact with someone known to have genital herpes?",
+        "options": [
+          {"option1": "Yes", "score": 5},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q2",
+        "prev_id": "Q1",
+        "next_id": "Q3"
+      },
+      {
+        "question": "Do you frequently engage in unprotected sexual activities?",
+        "options": [
+          {"option1": "Yes", "score": 4},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q3",
+        "prev_id": "Q2",
+        "next_id": "Q4"
+      },
+      {
+        "question": "Have you had multiple sexual partners in the last 12 months?",
+        "options": [
+          {"option1": "Yes", "score": 4},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q4",
+        "prev_id": "Q3",
+        "next_id": "Q5"
+      },
+      {
+        "question": "Have you ever noticed blisters or sores in your genital area?",
+        "options": [
+          {"option1": "Yes", "score": 5},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q5",
+        "prev_id": "Q4",
+        "next_id": "Q6"
+      },
+      {
+        "question": "Have you experienced itching or tingling sensations in the genital area?",
+        "options": [
+          {"option1": "Yes", "score": 3},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q6",
+        "prev_id": "Q5",
+        "next_id": "Q7"
+      },
+      {
+        "question": "Have you ever been diagnosed with another sexually transmitted infection (STI)?",
+        "options": [
+          {"option1": "Yes", "score": 4},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q7",
+        "prev_id": "Q6",
+        "next_id": "Q8"
+      },
+      {
+        "question": "Do you frequently experience flu-like symptoms, such as fever, fatigue, and swollen lymph nodes?",
+        "options": [
+          {"option1": "Yes", "score": 3},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q8",
+        "prev_id": "Q7",
+        "next_id": "Q9"
+      },
+      {
+        "question": "Do you have a weakened immune system due to a condition or medication?",
+        "options": [
+          {"option1": "Yes", "score": 5},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q9",
+        "prev_id": "Q8",
+        "next_id": "Q10"
+      },
+      {
+        "question": "Have you ever experienced painful urination?",
+        "options": [
+          {"option1": "Yes", "score": 3},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q10",
+        "prev_id": "Q9",
+        "next_id": "Q11"
+      },
+      {
+        "question": "Do you have a history of recurrent genital ulcers or sores?",
+        "options": [
+          {"option1": "Yes", "score": 4},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q11",
+        "prev_id": "Q10",
+        "next_id": "Q12"
+      },
+      {
+        "question": "Have you had intimate contact with someone who has experienced the above symptoms?",
+        "options": [
+          {"option1": "Yes", "score": 4},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q12",
+        "prev_id": "Q11",
+        "next_id": "Q13"
+      },
+      {
+        "question": "Do you regularly use barrier protection (like condoms) during sexual activities?",
+        "options": [
+          {"option1": "Yes, always", "score": 0},
+          {"option2": "Sometimes", "score": 2},
+          {"option3": "Rarely or never", "score": 4}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q13",
+        "prev_id": "Q12",
+        "next_id": "Q14"
+      },
+      {
+        "question": "Have you had any recent injury or trauma to the genital area?",
+        "options": [
+          {"option1": "Yes", "score": 2},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q14",
+        "prev_id": "Q13",
+        "next_id": "Q15"
+      },
+      {
+        "question": "Do you have a history of frequent outbreaks of sores or blisters in any part of your body?",
+        "options": [
+          {"option1": "Yes", "score": 4},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q15",
+        "prev_id": "Q14",
+        "next_id": "null"
+      }
+    ]
+  }
+  

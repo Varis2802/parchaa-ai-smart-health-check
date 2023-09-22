@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  parchaa-ai-smart-health-check:
+    networks:
+       - my_network
+    container_name: parchaa-ai-smart-health-check
+    restart: on-failure
+    build: .
+    volumes:
+      - .:/parchaa-ai-health-check
+    ports:
+      - "3000:3000"
+
+networks:
+  my_network:
+    driver: bridge
+    external: true

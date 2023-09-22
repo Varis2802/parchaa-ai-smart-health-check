@@ -1,0 +1,174 @@
+{
+  "type": "disease",
+  "name": "migraine",
+  "question_options": [
+    {
+      "question": "How often do you experience headaches?",
+      "options": [
+        { "option1": "Daily", "score": 5 },
+        { "option2": "Several times a week", "score": 4 },
+        { "option3": "Occasionally", "score": 2 },
+        { "option4": "Rarely", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q1",
+      "prev_id": "null",
+      "next_id": "Q2"
+    },
+    {
+      "question": "Do these headaches often start on one side?",
+      "options": [
+        { "option1": "Yes", "score": 5 },
+        { "option2": "No", "score": 2 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q2",
+      "prev_id": "Q1",
+      "next_id": "Q3"
+    },
+    {
+      "question": "Do you experience sensitivity to light or sound during these headaches?",
+      "options": [
+        { "option1": "Often", "score": 5 },
+        { "option2": "Sometimes", "score": 3 },
+        { "option3": "Never", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q3",
+      "prev_id": "Q2",
+      "next_id": "Q4"
+    },
+    {
+      "question": "Do you feel nauseated or vomit during a headache?",
+      "options": [
+        { "option1": "Yes", "score": 5 },
+        { "option2": "No", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q4",
+      "prev_id": "Q3",
+      "next_id": "Q5"
+    },
+    {
+      "question": "Does physical activity worsen your headaches?",
+      "options": [
+        { "option1": "Yes", "score": 5 },
+        { "option2": "No", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q5",
+      "prev_id": "Q4",
+      "next_id": "Q6"
+    },
+    {
+      "question": "Do you see flashing lights, zigzagging lines, or blind spots before a headache?",
+      "options": [
+        { "option1": "Yes", "score": 4 },
+        { "option2": "No", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q6",
+      "prev_id": "Q5",
+      "next_id": "Q7"
+    },
+    {
+      "question": "Have you ever been diagnosed with anxiety or depression?",
+      "options": [
+        { "option1": "Yes", "score": 4 },
+        { "option2": "No", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q7",
+      "prev_id": "Q6",
+      "next_id": "Q8"
+    },
+    {
+      "question": "Do your family members have a history of migraines?",
+      "options": [
+        { "option1": "Yes", "score": 4 },
+        { "option2": "No", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q8",
+      "prev_id": "Q7",
+      "next_id": "Q9"
+    },
+    {
+      "question": "Do you frequently consume caffeine or alcohol?",
+      "options": [
+        { "option1": "Yes", "score": 3 },
+        { "option2": "No", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q9",
+      "prev_id": "Q8",
+      "next_id": "Q10"
+    },
+    {
+      "question": "Have you noticed any foods or smells that trigger your headaches?",
+      "options": [
+        { "option1": "Yes", "score": 4 },
+        { "option2": "No", "score": 1 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q10",
+      "prev_id": "Q9",
+      "next_id": "Q11"
+    },
+    {
+      "question": "Are you often stressed or do you have irregular sleep patterns?",
+      "options": [
+        { "option1": "Yes", "score": 4 },
+        { "option2": "No", "score": 1 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q11",
+      "prev_id": "Q10",
+      "next_id": "Q12"
+    },
+    {
+      "question": "Are you female and do you notice headaches around your menstrual cycle?",
+      "options": [
+        { "option1": "Yes", "score": 4 },
+        { "option2": "No or not applicable", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q12",
+      "prev_id": "Q11",
+      "next_id": "Q13"
+    },
+    {
+      "question": "Do bright lights or sun glare easily irritate you?",
+      "options": [
+        { "option1": "Yes", "score": 3 },
+        { "option2": "No", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q13",
+      "prev_id": "Q12",
+      "next_id": "Q14"
+    },
+    {
+      "question": "Have you experienced any head trauma or injuries in the past?",
+      "options": [
+        { "option1": "Yes", "score": 3 },
+        { "option2": "No", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q14",
+      "prev_id": "Q13",
+      "next_id": "Q15"
+    },
+    {
+      "question": "Do changes in weather or barometric pressure affect your headaches?",
+      "options": [
+        { "option1": "Yes", "score": 3 },
+        { "option2": "No", "score": 0 }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q15",
+      "prev_id": "Q14",
+      "next_id": "null"
+    }
+  ]
+}

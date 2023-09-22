@@ -8,6 +8,14 @@
   font-family: "Arial", sans-serif;
   color: #4a68f1;
 }
+.parchaa-logo {
+  height: 150px;
+  width: 150px;
+  background: transparent;
+  margin-bottom: 60rem;
+  margin-right: 100rem;
+  position: absolute;
+}
 h1 {
   display: flex;
   flex-direction: column;
@@ -24,25 +32,26 @@ h2 {
 }
 .button-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: center;
   grid-gap: 6px;
   place-items: center;
   margin-top: 0px;
-  background-color: #4A68F1;
+  background-color: #4a68f1;
   border-radius: 20px;
-  height: 30rem;
-  width: 60rem;
+  height: 55rem;
+  width: 50rem;
   font-family: "Arial", sans-serif;
   color: #4a68f1;
+  position: relative; /* Add relative positioning */
   overflow-y: auto !important;
 }
 button {
   padding: 10px 20px;
   margin: 10px;
   height: 50px;
-  width:180px;
+  width: 200px;
   font-size: 15px;
   border: none;
   border-radius: 5px;
@@ -53,19 +62,20 @@ button {
 .button-container-2 {
   display: flex;
   flex-direction: column;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-content: center;
   align-items: center;
   grid-gap: 6px;
   place-items: center;
   margin-top: 20px;
-  background-color: #4A68F1;
+  background-color: #4a68f1;
   border-radius: 20px;
-  height: 30rem;
+  height: 35rem;
   width: 30rem;
   font-family: "Arial", sans-serif;
   color: #4a68f1;
   position: relative; /* Add relative positioning */
+  overflow-y: auto !important;
 }
 
 button.arrow1 {
@@ -88,7 +98,6 @@ button.arrow2 {
   outline: none; /* Optional: Removes focus outline */
 }
 
-
 button:hover {
   background-color: #53b88b; /* Red color on hover */
   color: #fff;
@@ -103,7 +112,12 @@ button:active {
   margin-bottom: 20px;
   text-align: center;
 }
-
+.result-text{
+  color: #53b88b;
+  font-weight: 900;
+  font-size: larger;
+  font-style: italic;
+}
 button.prev {
   align-self: flex-start; /* Aligns the Prev button to the left */
 }
@@ -135,39 +149,26 @@ button {
   animation: fadeIn 0.9s forwards;
 }
 
-.heading{
+.heading {
   color: #53b88b;
   margin-top: 20px;
 }
-.home{
+.home {
   justify-content: center;
   align-items: center;
   width: 17rem;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-style: italic;
   font-weight: bold;
   font-size: 18px;
   border-radius: 30px;
 }
 
-.question-text{
+.question-text {
   font-size: 21px;
+  color: black;
+  margin-bottom: 6rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ... [Your previous CSS here] ... */
 
@@ -242,7 +243,9 @@ button {
 }
 
 /* Extra styles for iPhone X, 11, and 12 */
-@media screen and (device-aspect-ratio: 375/812), (device-aspect-ratio: 390/844), (device-aspect-ratio: 428/926) {
+@media screen and (device-aspect-ratio: 375/812),
+  (device-aspect-ratio: 390/844),
+  (device-aspect-ratio: 428/926) {
   .button-container {
     width: 40rem;
     height: 22rem;

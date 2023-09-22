@@ -1,0 +1,322 @@
+{
+    "type": "disease",
+    "name": "Acne (Pimples)",
+    "question_options": [
+      {
+        "question": "How often do you experience facial breakouts?",
+        "options": [
+          {
+            "option1": "Rarely",
+            "score": "1"
+          },
+          {
+            "option2": "Monthly (around menstruation for females)",
+            "score": "3"
+          },
+          {
+            "option3": "Frequently",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q1",
+        "prev_id": "null",
+        "next_id": "Q2"
+      },
+      {
+        "question": "Do you have oily skin?",
+        "options": [
+          {
+            "option1": "No",
+            "score": "1"
+          },
+          {
+            "option2": "Moderately",
+            "score": "3"
+          },
+          {
+            "option3": "Very",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q2",
+        "prev_id": "Q1",
+        "next_id": "Q3"
+      },
+      {
+        "question": "How often do you clean or wash your face?",
+        "options": [
+          {
+            "option1": "2 or more times a day",
+            "score": "1"
+          },
+          {
+            "option2": "Once a day",
+            "score": "3"
+          },
+          {
+            "option3": "Less than once a day",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q3",
+        "prev_id": "Q2",
+        "next_id": "Q4"
+      },
+      {
+        "question": "Do you frequently eat fried foods or dairy products?",
+        "options": [
+          {
+            "option1": "Rarely",
+            "score": "2"
+          },
+          {
+            "option2": "Occasionally",
+            "score": "3"
+          },
+          {
+            "option3": "Frequently",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q4",
+        "prev_id": "Q3",
+        "next_id": "Q5"
+      },
+      {
+        "question": "Do you often touch your face with your hands?",
+        "options": [
+          {
+            "option1": "Rarely",
+            "score": "1"
+          },
+          {
+            "option2": "Occasionally",
+            "score": "4"
+          },
+          {
+            "option3": "Frequently",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q5",
+        "prev_id": "Q4",
+        "next_id": "Q6"
+      },
+      {
+        "question": "Do you use make-up products?",
+        "options": [
+          {
+            "option1": "No",
+            "score": "1"
+          },
+          {
+            "option2": "Yes, but they're non-comedogenic",
+            "score": "3"
+          },
+          {
+            "option3": "Yes, and they're not labeled non-comedogenic",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q6",
+        "prev_id": "Q5",
+        "next_id": "Q7"
+      },
+      {
+        "question": "Is there a history of acne in your family?",
+        "options": [
+          {
+            "option1": "No",
+            "score": "1"
+          },
+          {
+            "option2": "Yes, one parent",
+            "score": "3"
+          },
+          {
+            "option3": "Yes, both parents",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q7",
+        "prev_id": "Q6",
+        "next_id": "Q8"
+      },
+      {
+        "question": "How often do you change or clean your pillowcase?",
+        "options": [
+          {
+            "option1": "Weekly or more frequently",
+            "score": "1"
+          },
+          {
+            "option2": "Every 2 weeks",
+            "score": "3"
+          },
+          {
+            "option3": "Less than once a month",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q8",
+        "prev_id": "Q7",
+        "next_id": "Q9"
+      },
+      {
+        "question": "Are you currently under significant stress?",
+        "options": [
+          {
+            "option1": "No",
+            "score": "1"
+          },
+          {
+            "option2": "Moderate stress",
+            "score": "3"
+          },
+          {
+            "option3": "High stress",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q9",
+        "prev_id": "Q8",
+        "next_id": "Q10"
+      },
+      {
+        "question": "Do you smoke?",
+        "options": [
+          {
+            "option1": "No",
+            "score": "1"
+          },
+          {
+            "option2": "Occasionally",
+            "score": "4"
+          },
+          {
+            "option3": "Regularly",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q10",
+        "prev_id": "Q9",
+        "next_id": "Q11"
+      },
+      {
+        "question": "Do you consume alcoholic beverages?",
+        "options": [
+          {
+            "option1": "Rarely or never",
+            "score": "1"
+          },
+          {
+            "option2": "Occasionally",
+            "score": "3"
+          },
+          {
+            "option3": "Regularly",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q11",
+        "prev_id": "Q10",
+        "next_id": "Q12"
+      },
+      {
+        "question": "How often do you sleep less than 7 hours?",
+        "options": [
+          {
+            "option1": "Rarely",
+            "score": "1"
+          },
+          {
+            "option2": "2-3 days a week",
+            "score": "3"
+          },
+          {
+            "option3": "4 days a week or more",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q12",
+        "prev_id": "Q11",
+        "next_id": "Q13"
+      },
+      {
+        "question": "How often do you get exposed to polluted environments or dust?",
+        "options": [
+          {
+            "option1": "Rarely",
+            "score": "1"
+          },
+          {
+            "option2": "Occasionally",
+            "score": "3"
+          },
+          {
+            "option3": "Frequently",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q13",
+        "prev_id": "Q12",
+        "next_id": "Q14"
+      },
+      {
+        "question": "How would you describe your monthly hormonal changes (for females)?",
+        "options": [
+          {
+            "option1": "I don't observe any significant changes",
+            "score": "1"
+          },
+          {
+            "option2": "Moderate changes, occasional acne breakouts",
+            "score": "3"
+          },
+          {
+            "option3": "Severe, with frequent acne breakouts",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q14",
+        "prev_id": "Q13",
+        "next_id": "Q15"
+      },
+      {
+        "question": "Do you often hydrate your skin?",
+        "options": [
+          {
+            "option1": "Yes, regularly",
+            "score": "1"
+          },
+          {
+            "option2": "Occasionally",
+            "score": "3"
+          },
+          {
+            "option3": "Rarely",
+            "score": "5"
+          }
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q15",
+        "prev_id": "Q14",
+        "next_id": "null"
+      }
+    ]
+  }
+  

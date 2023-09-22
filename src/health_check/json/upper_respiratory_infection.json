@@ -1,0 +1,179 @@
+{
+    "type": "disease",
+    "name": "Upper Respiratory Infection",
+    "question_options": [
+      {
+        "question": "Are you experiencing frequent sneezing?",
+        "options": [
+          {"option1": "Yes", "score": 3},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q1",
+        "prev_id": "null",
+        "next_id": "Q2"
+      },
+      {
+        "question": "Do you have a sore throat?",
+        "options": [
+          {"option1": "Severe", "score": 5},
+          {"option2": "Mild", "score": 3},
+          {"option3": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q2",
+        "prev_id": "Q1",
+        "next_id": "Q3"
+      },
+      {
+        "question": "Have you had a fever in the last 48 hours?",
+        "options": [
+          {"option1": "Above 101°F (38.3°C)", "score": 5},
+          {"option2": "Below 101°F (38.3°C)", "score": 3},
+          {"option3": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q3",
+        "prev_id": "Q2",
+        "next_id": "Q4"
+      },
+      {
+        "question": "Are you experiencing coughing?",
+        "options": [
+          {"option1": "Persistent and dry", "score": 5},
+          {"option2": "Occasional", "score": 3},
+          {"option3": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q4",
+        "prev_id": "Q3",
+        "next_id": "Q5"
+      },
+      {
+        "question": "Do you have difficulty swallowing?",
+        "options": [
+          {"option1": "Always", "score": 5},
+          {"option2": "Sometimes", "score": 3},
+          {"option3": "Never", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q5",
+        "prev_id": "Q4",
+        "next_id": "Q6"
+      },
+      {
+        "question": "Are you experiencing a runny or stuffy nose?",
+        "options": [
+          {"option1": "Severely", "score": 4},
+          {"option2": "Mildly", "score": 2},
+          {"option3": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q6",
+        "prev_id": "Q5",
+        "next_id": "Q7"
+      },
+      {
+        "question": "Do you feel fatigued or unusually tired?",
+        "options": [
+          {"option1": "Yes", "score": 4},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q7",
+        "prev_id": "Q6",
+        "next_id": "Q8"
+      },
+      {
+        "question": "Have you been in close contact with someone who has a confirmed URI in the last two weeks?",
+        "options": [
+          {"option1": "Yes", "score": 4},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q8",
+        "prev_id": "Q7",
+        "next_id": "Q9"
+      },
+      {
+        "question": "Do you have swollen lymph nodes in your neck?",
+        "options": [
+          {"option1": "Yes", "score": 5},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q9",
+        "prev_id": "Q8",
+        "next_id": "Q10"
+      },
+      {
+        "question": "Are you experiencing any shortness of breath?",
+        "options": [
+          {"option1": "Yes", "score": 5},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q10",
+        "prev_id": "Q9",
+        "next_id": "Q11"
+      },
+      {
+        "question": "Do you smoke or have a history of smoking?",
+        "options": [
+          {"option1": "Yes, currently", "score": 4},
+          {"option2": "Used to smoke", "score": 2},
+          {"option3": "Never smoked", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q11",
+        "prev_id": "Q10",
+        "next_id": "Q12"
+      },
+      {
+        "question": "Have you traveled internationally in the last month?",
+        "options": [
+          {"option1": "Yes", "score": 2},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q12",
+        "prev_id": "Q11",
+        "next_id": "Q13"
+      },
+      {
+        "question": "Have you received the flu vaccine this year?",
+        "options": [
+          {"option1": "Yes", "score": -2},
+          {"option2": "No", "score": 1}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q13",
+        "prev_id": "Q12",
+        "next_id": "Q14"
+      },
+      {
+        "question": "Do you have a history of asthma or other respiratory conditions?",
+        "options": [
+          {"option1": "Yes", "score": 4},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q14",
+        "prev_id": "Q13",
+        "next_id": "Q15"
+      },
+      {
+        "question": "How would you describe your overall health?",
+        "options": [
+          {"option1": "Poor", "score": 4},
+          {"option2": "Average", "score": 2},
+          {"option3": "Excellent", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q15",
+        "prev_id": "Q14",
+        "next_id": "null"
+      }
+    ]
+  }
+  

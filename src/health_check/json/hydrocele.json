@@ -1,0 +1,182 @@
+{
+    "type": "disease",
+    "name": "Hydrocele",
+    "question_options": [
+      {
+        "question": "Have you noticed any swelling in the scrotum?",
+        "options": [
+          {"option1": "Yes, significant swelling", "score": 5},
+          {"option2": "Yes, slight swelling", "score": 3},
+          {"option3": "No swelling", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q1",
+        "prev_id": "null",
+        "next_id": "Q2"
+      },
+      {
+        "question": "Is the swelling painful?",
+        "options": [
+          {"option1": "Yes, very painful", "score": 4},
+          {"option2": "Mild pain", "score": 2},
+          {"option3": "No pain", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q2",
+        "prev_id": "Q1",
+        "next_id": "Q3"
+      },
+      {
+        "question": "Have you experienced any trauma or injury to the groin area?",
+        "options": [
+          {"option1": "Yes, recently", "score": 4},
+          {"option2": "Yes, a long time ago", "score": 2},
+          {"option3": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q3",
+        "prev_id": "Q2",
+        "next_id": "Q4"
+      },
+      {
+        "question": "Have you had any recent surgeries in the groin area?",
+        "options": [
+          {"option1": "Yes", "score": 5},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q4",
+        "prev_id": "Q3",
+        "next_id": "Q5"
+      },
+      {
+        "question": "Do you have a history of infections in the genital region?",
+        "options": [
+          {"option1": "Yes, multiple times", "score": 5},
+          {"option2": "Yes, once", "score": 3},
+          {"option3": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q5",
+        "prev_id": "Q4",
+        "next_id": "Q6"
+      },
+      {
+        "question": "Have you ever been diagnosed with hernia?",
+        "options": [
+          {"option1": "Yes", "score": 4},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q6",
+        "prev_id": "Q5",
+        "next_id": "Q7"
+      },
+      {
+        "question": "Are you experiencing any fever?",
+        "options": [
+          {"option1": "Yes, high fever", "score": 5},
+          {"option2": "Low-grade fever", "score": 2},
+          {"option3": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q7",
+        "prev_id": "Q6",
+        "next_id": "Q8"
+      },
+      {
+        "question": "Is the swelling red or warm to touch?",
+        "options": [
+          {"option1": "Yes", "score": 4},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q8",
+        "prev_id": "Q7",
+        "next_id": "Q9"
+      },
+      {
+        "question": "Is there any change in the size of swelling throughout the day?",
+        "options": [
+          {"option1": "Yes, it fluctuates", "score": 4},
+          {"option2": "No change", "score": 1},
+          {"option3": "Not sure", "score": 2}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q9",
+        "prev_id": "Q8",
+        "next_id": "Q10"
+      },
+      {
+        "question": "Have you consulted a doctor about this swelling before?",
+        "options": [
+          {"option1": "Yes, and was treated", "score": 3},
+          {"option2": "Yes, but was not treated", "score": 5},
+          {"option3": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q10",
+        "prev_id": "Q9",
+        "next_id": "Q11"
+      },
+      {
+        "question": "Do you have a family history of hydrocele or other testicular issues?",
+        "options": [
+          {"option1": "Yes", "score": 4},
+          {"option2": "No", "score": 0},
+          {"option3": "Not sure", "score": 2}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q11",
+        "prev_id": "Q10",
+        "next_id": "Q12"
+      },
+      {
+        "question": "Have you experienced sudden weight loss?",
+        "options": [
+          {"option1": "Yes", "score": 4},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q12",
+        "prev_id": "Q11",
+        "next_id": "Q13"
+      },
+      {
+        "question": "Are you above the age of 40?",
+        "options": [
+          {"option1": "Yes", "score": 3},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q13",
+        "prev_id": "Q12",
+        "next_id": "Q14"
+      },
+      {
+        "question": "Have you noticed any other lumps or bumps around your testicles?",
+        "options": [
+          {"option1": "Yes, multiple lumps", "score": 5},
+          {"option2": "Yes, one lump", "score": 4},
+          {"option3": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q14",
+        "prev_id": "Q13",
+        "next_id": "Q15"
+      },
+      {
+        "question": "Have you noticed any discharge or bleeding?",
+        "options": [
+          {"option1": "Yes, frequently", "score": 5},
+          {"option2": "Yes, occasionally", "score": 3},
+          {"option3": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q15",
+        "prev_id": "Q14",
+        "next_id": "null"
+      }
+    ]
+  }
+  

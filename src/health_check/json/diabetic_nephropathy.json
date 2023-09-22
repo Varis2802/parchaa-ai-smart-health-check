@@ -1,0 +1,183 @@
+{
+    "type": "disease",
+    "name": "Diabetic Nephropathy",
+    "question_options": [
+      {
+        "question": "Have you been diagnosed with diabetes?",
+        "options": [
+          {"option1": "Type 1", "score": "4"},
+          {"option2": "Type 2", "score": "3"},
+          {"option3": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q1",
+        "prev_id": "null",
+        "next_id": "Q2"
+      },
+      {
+        "question": "How long have you had diabetes?",
+        "options": [
+          {"option1": "Less than 5 years", "score": "2"},
+          {"option2": "5-10 years", "score": "3"},
+          {"option3": "More than 10 years", "score": "4"},
+          {"option4": "I don't have diabetes", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q2",
+        "prev_id": "Q1",
+        "next_id": "Q3"
+      },
+      {
+        "question": "Do you have a family history of kidney disease?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q3",
+        "prev_id": "Q2",
+        "next_id": "Q4"
+      },
+      {
+        "question": "How often do you check your blood sugar levels?",
+        "options": [
+          {"option1": "Multiple times a day", "score": "1"},
+          {"option2": "Once a day", "score": "2"},
+          {"option3": "Few times a week", "score": "3"},
+          {"option4": "Rarely/never", "score": "5"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q4",
+        "prev_id": "Q3",
+        "next_id": "Q5"
+      },
+      {
+        "question": "Have you ever noticed swelling in your ankles, feet or legs?",
+        "options": [
+          {"option1": "Frequently", "score": "4"},
+          {"option2": "Occasionally", "score": "3"},
+          {"option3": "Rarely", "score": "2"},
+          {"option4": "Never", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q5",
+        "prev_id": "Q4",
+        "next_id": "Q6"
+      },
+      {
+        "question": "Do you regularly check your blood pressure?",
+        "options": [
+          {"option1": "Yes, it's often high", "score": "4"},
+          {"option2": "Yes, it's usually normal", "score": "1"},
+          {"option3": "No, I rarely check", "score": "3"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q6",
+        "prev_id": "Q5",
+        "next_id": "Q7"
+      },
+      {
+        "question": "Do you experience frequent urination, especially at night?",
+        "options": [
+          {"option1": "Frequently", "score": "4"},
+          {"option2": "Occasionally", "score": "2"},
+          {"option3": "Rarely/Never", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q7",
+        "prev_id": "Q6",
+        "next_id": "Q8"
+      },
+      {
+        "question": "Have you noticed any unexpected weight gain in a short period of time?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q8",
+        "prev_id": "Q7",
+        "next_id": "Q9"
+      },
+      {
+        "question": "How often do you consume alcohol?",
+        "options": [
+          {"option1": "Frequently", "score": "3"},
+          {"option2": "Occasionally", "score": "2"},
+          {"option3": "Rarely/Never", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q9",
+        "prev_id": "Q8",
+        "next_id": "Q10"
+      },
+      {
+        "question": "Do you smoke or use tobacco products?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q10",
+        "prev_id": "Q9",
+        "next_id": "Q11"
+      },
+      {
+        "question": "Have you experienced persistent nausea or vomiting?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q11",
+        "prev_id": "Q10",
+        "next_id": "Q12"
+      },
+      {
+        "question": "Is your diet high in protein?",
+        "options": [
+          {"option1": "Yes", "score": "2"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q12",
+        "prev_id": "Q11",
+        "next_id": "Q13"
+      },
+      {
+        "question": "Have you been experiencing shortness of breath?",
+        "options": [
+          {"option1": "Frequently", "score": "3"},
+          {"option2": "Occasionally", "score": "2"},
+          {"option3": "Rarely/Never", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q13",
+        "prev_id": "Q12",
+        "next_id": "Q14"
+      },
+      {
+        "question": "Do you feel fatigued or tired most of the time?",
+        "options": [
+          {"option1": "Yes", "score": "3"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q14",
+        "prev_id": "Q13",
+        "next_id": "Q15"
+      },
+      {
+        "question": "Have you ever been diagnosed with any other kidney conditions?",
+        "options": [
+          {"option1": "Yes", "score": "4"},
+          {"option2": "No", "score": "0"}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q15",
+        "prev_id": "Q14",
+        "next_id": "null"
+      }
+    ]
+  }
+  

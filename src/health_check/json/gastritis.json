@@ -1,0 +1,132 @@
+{
+    "type": "disease",
+    "name": "Gastritis (Gastric problem)",
+    "question_options": [
+      {
+        "question": "Do you experience a burning sensation in your upper stomach?",
+        "options": [
+          {"option1": "Frequently", "score": 4},
+          {"option2": "Occasionally", "score": 2},
+          {"option3": "Never", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q1",
+        "prev_id": "null",
+        "next_id": "Q2"
+      },
+      {
+        "question": "How often do you consume alcohol?",
+        "options": [
+          {"option1": "Regularly", "score": 5},
+          {"option2": "Occasionally", "score": 3},
+          {"option3": "Never", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q2",
+        "prev_id": "Q1",
+        "next_id": "Q3"
+      },
+      {
+        "question": "Have you been taking NSAIDs (like ibuprofen) frequently?",
+        "options": [
+          {"option1": "Yes", "score": 4},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q3",
+        "prev_id": "Q2",
+        "next_id": "Q4"
+      },
+      {
+        "question": "Do you experience nausea or vomiting?",
+        "options": [
+          {"option1": "Yes", "score": 4},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q4",
+        "prev_id": "Q3",
+        "next_id": "Q5"
+      },
+      {
+        "question": "Do you feel full quickly when eating?",
+        "options": [
+          {"option1": "Often", "score": 4},
+          {"option2": "Sometimes", "score": 2},
+          {"option3": "Never", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q5",
+        "prev_id": "Q4",
+        "next_id": "Q6"
+      },
+      {
+        "question": "Have you noticed blood in your vomit or black, tarry stools?",
+        "options": [
+          {"option1": "Yes", "score": 5},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q6",
+        "prev_id": "Q5",
+        "next_id": "Q7"
+      },
+      {
+        "question": "Do you have a history of H. pylori infection?",
+        "options": [
+          {"option1": "Yes", "score": 5},
+          {"option2": "Not sure", "score": 2},
+          {"option3": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q7",
+        "prev_id": "Q6",
+        "next_id": "Q8"
+      },
+      {
+        "question": "Have you been experiencing unintentional weight loss?",
+        "options": [
+          {"option1": "Yes", "score": 5},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q8",
+        "prev_id": "Q7",
+        "next_id": "Q9"
+      },
+      {
+        "question": "Do you have a family history of gastritis or stomach cancer?",
+        "options": [
+          {"option1": "Yes", "score": 4},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q9",
+        "prev_id": "Q8",
+        "next_id": "Q10"
+      },
+      {
+        "question": "Do you frequently consume spicy foods?",
+        "options": [
+          {"option1": "Yes", "score": 3},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q10",
+        "prev_id": "Q9",
+        "next_id": "Q11"
+      },
+      {
+        "question": "Have you been under consistent stress recently?",
+        "options": [
+          {"option1": "Yes", "score": 3},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q11",
+        "prev_id": "Q10",
+        "next_id": "null"
+      }
+    ]
+  }
+  

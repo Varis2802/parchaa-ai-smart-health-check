@@ -1,0 +1,173 @@
+{
+  "type": "disease",
+  "name": "Alchoholic Liver Disease",
+  "question_options": [
+    {
+      "question": "How many units of alcohol do you consume on average per week?",
+      "options": [
+        { "option1": "0-5 units", "score": "1" },
+        { "option2": "6-15 units", "score": "3" },
+        { "option3": "16-30 units", "score": "4" },
+        { "option4": ">30 units", "score": "5" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q1",
+      "prev_id": "null",
+      "next_id": "Q2"
+    },
+    {
+      "question": "Do you experience persistent fatigue or weakness?",
+      "options": [
+        { "option1": "Yes", "score": "3" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q2",
+      "prev_id": "Q1",
+      "next_id": "Q3"
+    },
+    {
+      "question": "Have you noticed yellowing of your skin or eyes (jaundice)?",
+      "options": [
+        { "option1": "Yes", "score": "4" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q3",
+      "prev_id": "Q2",
+      "next_id": "Q4"
+    },
+    {
+      "question": "Do you have a family history of liver diseases?",
+      "options": [
+        { "option1": "Yes", "score": "3" },
+        { "option2": "No", "score": "1" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q4",
+      "prev_id": "Q3",
+      "next_id": "Q5"
+    },
+    {
+      "question": "Have you noticed swelling in your abdomen or legs?",
+      "options": [
+        { "option1": "Yes", "score": "4" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q5",
+      "prev_id": "Q4",
+      "next_id": "Q6"
+    },
+    {
+      "question": "Do you often experience nausea or vomiting?",
+      "options": [
+        { "option1": "Yes", "score": "3" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q6",
+      "prev_id": "Q5",
+      "next_id": "Q7"
+    },
+    {
+      "question": "Have you ever been diagnosed with hepatitis or any other liver condition?",
+      "options": [
+        { "option1": "Yes", "score": "5" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q7",
+      "prev_id": "Q6",
+      "next_id": "Q8"
+    },
+    {
+      "question": "Do you consume other drugs or medications that might interact with alcohol?",
+      "options": [
+        { "option1": "Yes", "score": "4" },
+        { "option2": "No", "score": "1" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q8",
+      "prev_id": "Q7",
+      "next_id": "Q9"
+    },
+    {
+      "question": "Have you noticed any change in your stool color to pale or tar-colored?",
+      "options": [
+        { "option1": "Yes", "score": "3" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q9",
+      "prev_id": "Q8",
+      "next_id": "Q10"
+    },
+    {
+      "question": "Do you experience frequent abdominal pain, especially in the upper right side?",
+      "options": [
+        { "option1": "Yes", "score": "3" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q10",
+      "prev_id": "Q9",
+      "next_id": "Q11"
+    },
+    {
+      "question": "Do you have a reduced appetite or unexplained weight loss?",
+      "options": [
+        { "option1": "Yes", "score": "3" },
+        { "option2": "No", "score": "1" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q11",
+      "prev_id": "Q10",
+      "next_id": "Q12"
+    },
+    {
+      "question": "Have you been diagnosed with anemia?",
+      "options": [
+        { "option1": "Yes", "score": "3" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q12",
+      "prev_id": "Q11",
+      "next_id": "Q13"
+    },
+    {
+      "question": "Do you often experience confusion or poor judgement, which is not related to alcohol intoxication?",
+      "options": [
+        { "option1": "Yes", "score": "4" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q13",
+      "prev_id": "Q12",
+      "next_id": "Q14"
+    },
+    {
+      "question": "Are you above the age of 50?",
+      "options": [
+        { "option1": "Yes", "score": "2" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q14",
+      "prev_id": "Q13",
+      "next_id": "Q15"
+    },
+    {
+      "question": "Have you noticed spider-like blood vessels on your skin?",
+      "options": [
+        { "option1": "Yes", "score": "3" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q15",
+      "prev_id": "Q14",
+      "next_id": "null"
+    }
+  ]
+}

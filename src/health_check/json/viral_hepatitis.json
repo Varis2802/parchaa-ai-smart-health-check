@@ -1,0 +1,171 @@
+{
+  "type": "disease",
+  "name": "Viral Hepatitis",
+  "question_options": [
+    {
+      "question": "Have you recently traveled to an area where hepatitis is prevalent?",
+      "options": [
+        { "option1": "Yes", "score": "4" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q1",
+      "prev_id": "null",
+      "next_id": "Q2"
+    },
+    {
+      "question": "Have you received a blood transfusion or organ transplant before the year 1992?",
+      "options": [
+        { "option1": "Yes", "score": "4" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q2",
+      "prev_id": "Q1",
+      "next_id": "Q3"
+    },
+    {
+      "question": "Have you ever used injected drugs, even if it was just once or many years ago?",
+      "options": [
+        { "option1": "Yes", "score": "5" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q3",
+      "prev_id": "Q2",
+      "next_id": "Q4"
+    },
+    {
+      "question": "Do you have a tattoo or piercing that was done with non-sterilized equipment?",
+      "options": [
+        { "option1": "Yes", "score": "3" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q4",
+      "prev_id": "Q3",
+      "next_id": "Q5"
+    },
+    {
+      "question": "Have you been in close contact with someone diagnosed with viral hepatitis?",
+      "options": [
+        { "option1": "Yes", "score": "5" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q5",
+      "prev_id": "Q4",
+      "next_id": "Q6"
+    },
+    {
+      "question": "Have you ever been on long-term kidney dialysis?",
+      "options": [
+        { "option1": "Yes", "score": "4" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q6",
+      "prev_id": "Q5",
+      "next_id": "Q7"
+    },
+    {
+      "question": "Have you ever been incarcerated (jail/prison)?",
+      "options": [
+        { "option1": "Yes", "score": "3" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q7",
+      "prev_id": "Q6",
+      "next_id": "Q8"
+    },
+    {
+      "question": "Do you work in healthcare or public safety and had exposure to blood on the job?",
+      "options": [
+        { "option1": "Yes", "score": "3" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q8",
+      "prev_id": "Q7",
+      "next_id": "Q9"
+    },
+    {
+      "question": "Do you experience any of the following symptoms: fatigue, nausea, loss of appetite, yellowing of skin or eyes?",
+      "options": [
+        { "option1": "Yes", "score": "4" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q9",
+      "prev_id": "Q8",
+      "next_id": "Q10"
+    },
+    {
+      "question": "Were you born to a mother infected with hepatitis?",
+      "options": [
+        { "option1": "Yes", "score": "5" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q10",
+      "prev_id": "Q9",
+      "next_id": "Q11"
+    },
+    {
+      "question": "Have you ever had sexual contact with someone infected with viral hepatitis?",
+      "options": [
+        { "option1": "Yes", "score": "4" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q11",
+      "prev_id": "Q10",
+      "next_id": "Q12"
+    },
+    {
+      "question": "Have you ever received clotting factor concentrates?",
+      "options": [
+        { "option1": "Yes", "score": "4" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q12",
+      "prev_id": "Q11",
+      "next_id": "Q13"
+    },
+    {
+      "question": "Do you have HIV/AIDS?",
+      "options": [
+        { "option1": "Yes", "score": "4" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q13",
+      "prev_id": "Q12",
+      "next_id": "Q14"
+    },
+    {
+      "question": "Have you noticed dark-colored urine?",
+      "options": [
+        { "option1": "Yes", "score": "3" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q14",
+      "prev_id": "Q13",
+      "next_id": "Q15"
+    },
+    {
+      "question": "Have you ever been diagnosed with any liver disease in the past?",
+      "options": [
+        { "option1": "Yes", "score": "5" },
+        { "option2": "No", "score": "0" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q15",
+      "prev_id": "Q14",
+      "next_id": "null"
+    }
+  ]
+}

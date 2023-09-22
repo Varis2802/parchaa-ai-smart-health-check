@@ -1,0 +1,182 @@
+{
+  "type": "disease",
+  "name": "Alopecia (Balding)",
+  "question_options": [
+    {
+      "question": "How old are you?",
+      "options": [
+        { "option1": "Below 20", "score": "2" },
+        { "option2": "21-30", "score": "4" },
+        { "option3": "31-40", "score": "5" },
+        { "option4": "41-50", "score": "5" },
+        { "option5": "Above 50", "score": "4" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q1",
+      "prev_id": "null",
+      "next_id": "Q2"
+    },
+    {
+      "question": "Is there a history of balding in your family?",
+      "options": [
+        { "option1": "Yes", "score": "5" },
+        { "option2": "No", "score": "1" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q2",
+      "prev_id": "Q1",
+      "next_id": "Q3"
+    },
+    {
+      "question": "Have you noticed a sudden hair loss?",
+      "options": [
+        { "option1": "Yes", "score": "5" },
+        { "option2": "No", "score": "1" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q3",
+      "prev_id": "Q2",
+      "next_id": "Q4"
+    },
+    {
+      "question": "Do you often undergo stressful situations?",
+      "options": [
+        { "option1": "Frequently", "score": "5" },
+        { "option2": "Occasionally", "score": "3" },
+        { "option3": "Rarely", "score": "1" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q4",
+      "prev_id": "Q3",
+      "next_id": "Q5"
+    },
+    {
+      "question": "How would you describe your diet?",
+      "options": [
+        { "option1": "Balanced", "score": "1" },
+        { "option2": "High in junk food", "score": "5" },
+        { "option3": "Predominantly vegetarian", "score": "2" },
+        { "option4": "Low in vitamins and minerals", "score": "4" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q5",
+      "prev_id": "Q4",
+      "next_id": "Q6"
+    },
+    {
+      "question": "Do you smoke?",
+      "options": [
+        { "option1": "Yes", "score": "5" },
+        { "option2": "No", "score": "1" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q6",
+      "prev_id": "Q5",
+      "next_id": "Q7"
+    },
+    {
+      "question": "Do you consume alcohol?",
+      "options": [
+        { "option1": "Regularly", "score": "4" },
+        { "option2": "Occasionally", "score": "3" },
+        { "option3": "Never", "score": "1" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q7",
+      "prev_id": "Q6",
+      "next_id": "Q8"
+    },
+    {
+      "question": "Do you have any underlying medical conditions?",
+      "options": [
+        { "option1": "Thyroid disorders", "score": "5" },
+        { "option2": "Anemia", "score": "4" },
+        { "option3": "PCOS", "score": "5" },
+        { "option4": "None of the above", "score": "1" }
+      ],
+      "multiple_option_selector": "true",
+      "question_id": "Q8",
+      "prev_id": "Q7",
+      "next_id": "Q9"
+    },
+    {
+      "question": "How often do you use hair products with chemicals?",
+      "options": [
+        { "option1": "Frequently", "score": "5" },
+        { "option2": "Occasionally", "score": "3" },
+        { "option3": "Never", "score": "1" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q9",
+      "prev_id": "Q8",
+      "next_id": "Q10"
+    },
+    {
+      "question": "Have you undergone any radiation treatment to the head?",
+      "options": [
+        { "option1": "Yes", "score": "5" },
+        { "option2": "No", "score": "1" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q10",
+      "prev_id": "Q9",
+      "next_id": "Q11"
+    },
+    {
+      "question": "Do you have a history of fungal scalp infections?",
+      "options": [
+        { "option1": "Yes", "score": "4" },
+        { "option2": "No", "score": "1" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q11",
+      "prev_id": "Q10",
+      "next_id": "Q12"
+    },
+    {
+      "question": "Do you regularly wear tight hairstyles?",
+      "options": [
+        { "option1": "Yes", "score": "4" },
+        { "option2": "No", "score": "1" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q12",
+      "prev_id": "Q11",
+      "next_id": "Q13"
+    },
+    {
+      "question": "How would you describe your hair care routine?",
+      "options": [
+        { "option1": "I often neglect it", "score": "5" },
+        { "option2": "I take good care", "score": "2" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q13",
+      "prev_id": "Q12",
+      "next_id": "Q14"
+    },
+    {
+      "question": "How often do you expose your hair to heat styling tools?",
+      "options": [
+        { "option1": "Frequently", "score": "5" },
+        { "option2": "Occasionally", "score": "3" },
+        { "option3": "Never", "score": "1" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q14",
+      "prev_id": "Q13",
+      "next_id": "Q15"
+    },
+    {
+      "question": "Do you take any medications that might cause hair loss as a side effect?",
+      "options": [
+        { "option1": "Yes", "score": "5" },
+        { "option2": "No", "score": "1" }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q15",
+      "prev_id": "Q14",
+      "next_id": "null"
+    }
+  ]
+}

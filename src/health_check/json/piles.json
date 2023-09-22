@@ -1,0 +1,285 @@
+{
+  "type": "disease",
+  "name": "Piles",
+  "question_options": [
+    {
+      "question": "Have you noticed any blood on the toilet paper after wiping?",
+      "options": [
+        {
+          "option1": "Never",
+          "score": "1"
+        },
+        {
+          "option2": "Occasionally",
+          "score": "3"
+        },
+        {
+          "option3": "Often",
+          "score": "5"
+        }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q1",
+      "prev_id": "null",
+      "next_id": "Q2"
+    },
+    {
+      "question": "Do you experience any pain or discomfort during bowel movements?",
+      "options": [
+        {
+          "option1": "Never",
+          "score": "1"
+        },
+        {
+          "option2": "Occasionally",
+          "score": "3"
+        },
+        {
+          "option3": "Often",
+          "score": "5"
+        }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q2",
+      "prev_id": "Q1",
+      "next_id": "Q3"
+    },
+    {
+      "question": "Have you felt any lumps or swelling around your anus?",
+      "options": [
+        {
+          "option1": "No",
+          "score": "1"
+        },
+        {
+          "option2": "Yes",
+          "score": "5"
+        }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q3",
+      "prev_id": "Q2",
+      "next_id": "Q4"
+    },
+    {
+      "question": "Do you have a history of chronic constipation?",
+      "options": [
+        {
+          "option1": "No",
+          "score": "1"
+        },
+        {
+          "option2": "Yes",
+          "score": "4"
+        }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q4",
+      "prev_id": "Q3",
+      "next_id": "Q5"
+    },
+    {
+      "question": "Do you strain excessively during bowel movements?",
+      "options": [
+        {
+          "option1": "Never",
+          "score": "1"
+        },
+        {
+          "option2": "Sometimes",
+          "score": "3"
+        },
+        {
+          "option3": "Often",
+          "score": "5"
+        }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q5",
+      "prev_id": "Q4",
+      "next_id": "Q6"
+    },
+    {
+      "question": "Is there a family history of piles or similar conditions?",
+      "options": [
+        {
+          "option1": "No",
+          "score": "1"
+        },
+        {
+          "option2": "Yes",
+          "score": "3"
+        }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q6",
+      "prev_id": "Q5",
+      "next_id": "Q7"
+    },
+    {
+      "question": "Have you lost weight without trying recently?",
+      "options": [
+        {
+          "option1": "No",
+          "score": "1"
+        },
+        {
+          "option2": "Yes",
+          "score": "5"
+        }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q7",
+      "prev_id": "Q6",
+      "next_id": "Q8"
+    },
+    {
+      "question": "Do you have a history of prolonged standing or sitting?",
+      "options": [
+        {
+          "option1": "No",
+          "score": "2"
+        },
+        {
+          "option2": "Yes",
+          "score": "4"
+        }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q8",
+      "prev_id": "Q7",
+      "next_id": "Q9"
+    },
+    {
+      "question": "Have you experienced any changes in bowel habits?",
+      "options": [
+        {
+          "option1": "No",
+          "score": "1"
+        },
+        {
+          "option2": "Yes",
+          "score": "4"
+        }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q9",
+      "prev_id": "Q8",
+      "next_id": "Q10"
+    },
+    {
+      "question": "Have you felt a sensation of incomplete evacuation after bowel movements?",
+      "options": [
+        {
+          "option1": "Never",
+          "score": "1"
+        },
+        {
+          "option2": "Occasionally",
+          "score": "3"
+        },
+        {
+          "option3": "Often",
+          "score": "5"
+        }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q10",
+      "prev_id": "Q9",
+      "next_id": "Q11"
+    },
+    {
+      "question": "Do you consume a low-fiber diet?",
+      "options": [
+        {
+          "option1": "No",
+          "score": "1"
+        },
+        {
+          "option2": "Yes",
+          "score": "3"
+        }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q11",
+      "prev_id": "Q10",
+      "next_id": "Q12"
+    },
+    {
+      "question": "Do you have a history of liver disease?",
+      "options": [
+        {
+          "option1": "No",
+          "score": "1"
+        },
+        {
+          "option2": "Yes",
+          "score": "5"
+        }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q12",
+      "prev_id": "Q11",
+      "next_id": "Q13"
+    },
+    {
+      "question": "Do you frequently lift heavy objects?",
+      "options": [
+        {
+          "option1": "No",
+          "score": "2"
+        },
+        {
+          "option2": "Yes",
+          "score": "4"
+        }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q13",
+      "prev_id": "Q12",
+      "next_id": "Q14"
+    },
+    {
+      "question": "Are you currently pregnant or have given birth recently?",
+      "options": [
+        {
+          "option1": "No",
+          "score": "1"
+        },
+        {
+          "option2": "Yes, pregnant",
+          "score": "4"
+        },
+        {
+          "option3": "Yes, recently gave birth",
+          "score": "3"
+        }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q14",
+      "prev_id": "Q13",
+      "next_id": "Q15"
+    },
+    {
+      "question": "Do you consume excessive alcohol or have a history of alcoholism?",
+      "options": [
+        {
+          "option1": "No",
+          "score": "1"
+        },
+        {
+          "option2": "Occasionally",
+          "score": "3"
+        },
+        {
+          "option3": "Frequently",
+          "score": "5"
+        }
+      ],
+      "multiple_option_selector": "false",
+      "question_id": "Q15",
+      "prev_id": "Q14",
+      "next_id": "null"
+    }
+  ]
+}

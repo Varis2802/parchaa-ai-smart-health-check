@@ -1,0 +1,184 @@
+{
+    "type": "disease",
+    "name": "Enlarge Prostate",
+    "question_options": [
+      {
+        "question": "Do you experience frequent urination, especially at night?",
+        "options": [
+          {"option1": "Very frequently", "score": 5},
+          {"option2": "Sometimes", "score": 3},
+          {"option3": "Rarely or never", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q1",
+        "prev_id": "null",
+        "next_id": "Q2"
+      },
+      {
+        "question": "Do you feel that your bladder isn't completely empty after urination?",
+        "options": [
+          {"option1": "Often", "score": 5},
+          {"option2": "Sometimes", "score": 3},
+          {"option3": "Rarely or never", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q2",
+        "prev_id": "Q1",
+        "next_id": "Q3"
+      },
+      {
+        "question": "How often do you have a weak urine stream or a stream that stops and starts?",
+        "options": [
+          {"option1": "Very often", "score": 5},
+          {"option2": "Occasionally", "score": 3},
+          {"option3": "Rarely or never", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q3",
+        "prev_id": "Q2",
+        "next_id": "Q4"
+      },
+      {
+        "question": "Do you need to strain to start urination?",
+        "options": [
+          {"option1": "Frequently", "score": 4},
+          {"option2": "Sometimes", "score": 2},
+          {"option3": "Never", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q4",
+        "prev_id": "Q3",
+        "next_id": "Q5"
+      },
+      {
+        "question": "Have you experienced sudden urges to urinate that are difficult to control?",
+        "options": [
+          {"option1": "Regularly", "score": 5},
+          {"option2": "Occasionally", "score": 2},
+          {"option3": "Never", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q5",
+        "prev_id": "Q4",
+        "next_id": "Q6"
+      },
+      {
+        "question": "Have you noticed blood in your urine?",
+        "options": [
+          {"option1": "Yes", "score": 5},
+          {"option2": "Not sure", "score": 3},
+          {"option3": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q6",
+        "prev_id": "Q5",
+        "next_id": "Q7"
+      },
+      {
+        "question": "Have you experienced recurrent urinary tract infections?",
+        "options": [
+          {"option1": "Yes, multiple times", "score": 5},
+          {"option2": "Once or twice", "score": 3},
+          {"option3": "Never", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q7",
+        "prev_id": "Q6",
+        "next_id": "Q8"
+      },
+      {
+        "question": "Are you above the age of 50?",
+        "options": [
+          {"option1": "Yes, above 70", "score": 5},
+          {"option2": "Yes, 50-70", "score": 4},
+          {"option3": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q8",
+        "prev_id": "Q7",
+        "next_id": "Q9"
+      },
+      {
+        "question": "Do you have a family history of prostate problems?",
+        "options": [
+          {"option1": "Yes, multiple family members", "score": 5},
+          {"option2": "Yes, one family member", "score": 3},
+          {"option3": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q9",
+        "prev_id": "Q8",
+        "next_id": "Q10"
+      },
+      {
+        "question": "Have you ever had prostate or bladder surgery?",
+        "options": [
+          {"option1": "Yes", "score": 5},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q10",
+        "prev_id": "Q9",
+        "next_id": "Q11"
+      },
+      {
+        "question": "Do you have diabetes?",
+        "options": [
+          {"option1": "Yes", "score": 4},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q11",
+        "prev_id": "Q10",
+        "next_id": "Q12"
+      },
+      {
+        "question": "Do you take medications, especially diuretics or antihistamines?",
+        "options": [
+          {"option1": "Yes, regularly", "score": 4},
+          {"option2": "Occasionally", "score": 2},
+          {"option3": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q12",
+        "prev_id": "Q11",
+        "next_id": "Q13"
+      },
+      {
+        "question": "Do you have a history of kidney problems?",
+        "options": [
+          {"option1": "Yes", "score": 4},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q13",
+        "prev_id": "Q12",
+        "next_id": "Q14"
+      },
+      {
+        "question": "Do you experience erectile dysfunction?",
+        "options": [
+          {"option1": "Frequently", "score": 3},
+          {"option2": "Occasionally", "score": 2},
+          {"option3": "Never", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q14",
+        "prev_id": "Q13",
+        "next_id": "Q15"
+      },
+      {
+        "question": "Have you noticed a decrease in the force of your urine stream?",
+        "options": [
+          {"option1": "Significantly decreased", "score": 5},
+          {"option2": "Slightly decreased", "score": 3},
+          {"option3": "Not at all", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q15",
+        "prev_id": "Q14",
+        "next_id": "null"
+      }
+    ]
+  }
+  

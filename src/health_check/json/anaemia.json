@@ -1,0 +1,194 @@
+{
+    "type": "disease",
+    "name": "ANAEMIA",
+    "question_options": [
+      {
+        "question": "Do you experience fatigue or weakness more than usual?",
+        "options": [
+          {"option1": "Often", "score": 5},
+          {"option2": "Sometimes", "score": 3},
+          {"option3": "Rarely", "score": 1},
+          {"option4": "Never", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q1",
+        "prev_id": "null",
+        "next_id": "Q2"
+      },
+      {
+        "question": "Do you often have shortness of breath or dizziness?",
+        "options": [
+          {"option1": "Often", "score": 5},
+          {"option2": "Sometimes", "score": 3},
+          {"option3": "Rarely", "score": 1},
+          {"option4": "Never", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q2",
+        "prev_id": "Q1",
+        "next_id": "Q3"
+      },
+      {
+        "question": "Is your skin or the inside of your mouth paler than usual?",
+        "options": [
+          {"option1": "Yes, significantly", "score": 5},
+          {"option2": "Yes, a little", "score": 3},
+          {"option3": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q3",
+        "prev_id": "Q2",
+        "next_id": "Q4"
+      },
+      {
+        "question": "Do you experience rapid or irregular heartbeat?",
+        "options": [
+          {"option1": "Often", "score": 5},
+          {"option2": "Sometimes", "score": 3},
+          {"option3": "Rarely", "score": 1},
+          {"option4": "Never", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q4",
+        "prev_id": "Q3",
+        "next_id": "Q5"
+      },
+      {
+        "question": "Do you often feel cold, especially hands and feet?",
+        "options": [
+          {"option1": "Often", "score": 5},
+          {"option2": "Sometimes", "score": 3},
+          {"option3": "Rarely", "score": 1},
+          {"option4": "Never", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q5",
+        "prev_id": "Q4",
+        "next_id": "Q6"
+      },
+      {
+        "question": "Have you noticed an increase in headaches?",
+        "options": [
+          {"option1": "Often", "score": 5},
+          {"option2": "Sometimes", "score": 3},
+          {"option3": "Rarely", "score": 1},
+          {"option4": "Never", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q6",
+        "prev_id": "Q5",
+        "next_id": "Q7"
+      },
+      {
+        "question": "Do you have difficulty concentrating?",
+        "options": [
+          {"option1": "Often", "score": 5},
+          {"option2": "Sometimes", "score": 3},
+          {"option3": "Rarely", "score": 1},
+          {"option4": "Never", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q7",
+        "prev_id": "Q6",
+        "next_id": "Q8"
+      },
+      {
+        "question": "Are you experiencing chest pain?",
+        "options": [
+          {"option1": "Often", "score": 5},
+          {"option2": "Sometimes", "score": 3},
+          {"option3": "Rarely", "score": 1},
+          {"option4": "Never", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q8",
+        "prev_id": "Q7",
+        "next_id": "Q9"
+      },
+      {
+        "question": "Have you noticed leg cramps or restless legs?",
+        "options": [
+          {"option1": "Often", "score": 5},
+          {"option2": "Sometimes", "score": 3},
+          {"option3": "Rarely", "score": 1},
+          {"option4": "Never", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q9",
+        "prev_id": "Q8",
+        "next_id": "Q10"
+      },
+      {
+        "question": "Is there a history of anemia in your family?",
+        "options": [
+          {"option1": "Yes", "score": 5},
+          {"option2": "Not sure", "score": 3},
+          {"option3": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q10",
+        "prev_id": "Q9",
+        "next_id": "Q11"
+      },
+      {
+        "question": "Have you noticed an increase in hair loss?",
+        "options": [
+          {"option1": "Yes, significantly", "score": 5},
+          {"option2": "Yes, a little", "score": 3},
+          {"option3": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q11",
+        "prev_id": "Q10",
+        "next_id": "Q12"
+      },
+      {
+        "question": "Do you consume enough iron-rich foods (e.g., spinach, lentils, meat)?",
+        "options": [
+          {"option1": "Rarely", "score": 5},
+          {"option2": "Sometimes", "score": 3},
+          {"option3": "Often", "score": 1},
+          {"option4": "Always", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q12",
+        "prev_id": "Q11",
+        "next_id": "Q13"
+      },
+      {
+        "question": "Do you have a history of heavy menstrual periods?",
+        "options": [
+          {"option1": "Yes", "score": 5},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q13",
+        "prev_id": "Q12",
+        "next_id": "Q14"
+      },
+      {
+        "question": "Have you been diagnosed with a chronic disease that might lead to anemia (e.g., Crohn's, celiac)?",
+        "options": [
+          {"option1": "Yes", "score": 5},
+          {"option2": "Not sure", "score": 3},
+          {"option3": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q14",
+        "prev_id": "Q13",
+        "next_id": "Q15"
+      },
+      {
+        "question": "Are you a vegetarian or vegan?",
+        "options": [
+          {"option1": "Yes", "score": 5},
+          {"option2": "No", "score": 0}
+        ],
+        "multiple_option_selector": "false",
+        "question_id": "Q15",
+        "prev_id": "Q14",
+        "next_id": "null"
+      }
+    ]
+  }
+  

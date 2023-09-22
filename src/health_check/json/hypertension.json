@@ -1,0 +1,179 @@
+{
+    "type": "disease",
+    "name": "Hypertension",
+    "question_options": [
+        {
+            "question": "What is your age?",
+            "options": [
+                {"option1": "Below 30", "score": 0},
+                {"option2": "30-45", "score": 2},
+                {"option3": "46-60", "score": 4},
+                {"option4": "Above 60", "score": 5}
+            ],
+            "multiple_option_selector": "false",
+            "question_id": "Q1",
+            "prev_id": "null",
+            "next_id": "Q2"
+        },
+        {
+            "question": "What is your gender?",
+            "options": [
+                {"option1": "Male", "score": 2},
+                {"option2": "Female", "score": 1}
+            ],
+            "multiple_option_selector": "false",
+            "question_id": "Q2",
+            "prev_id": "Q1",
+            "next_id": "Q3"
+        },
+        {
+            "question": "Do you smoke?",
+            "options": [
+                {"option1": "Yes", "score": 5},
+                {"option2": "No", "score": 0}
+            ],
+            "multiple_option_selector": "false",
+            "question_id": "Q3",
+            "prev_id": "Q2",
+            "next_id": "Q4"
+        },
+        {
+            "question": "Is there a history of hypertension in your family?",
+            "options": [
+                {"option1": "Yes", "score": 4},
+                {"option2": "No", "score": 0}
+            ],
+            "multiple_option_selector": "false",
+            "question_id": "Q4",
+            "prev_id": "Q3",
+            "next_id": "Q5"
+        },
+        {
+            "question": "How would you rate your stress level?",
+            "options": [
+                {"option1": "Low", "score": 0},
+                {"option2": "Moderate", "score": 3},
+                {"option3": "High", "score": 5}
+            ],
+            "multiple_option_selector": "false",
+            "question_id": "Q5",
+            "prev_id": "Q4",
+            "next_id": "Q6"
+        },
+        {
+            "question": "How often do you consume alcohol?",
+            "options": [
+                {"option1": "Never", "score": 0},
+                {"option2": "Occasionally", "score": 2},
+                {"option3": "Regularly", "score": 5}
+            ],
+            "multiple_option_selector": "false",
+            "question_id": "Q6",
+            "prev_id": "Q5",
+            "next_id": "Q7"
+        },
+        {
+            "question": "How much salt do you consume daily?",
+            "options": [
+                {"option1": "Low", "score": 0},
+                {"option2": "Moderate", "score": 3},
+                {"option3": "High", "score": 5}
+            ],
+            "multiple_option_selector": "false",
+            "question_id": "Q7",
+            "prev_id": "Q6",
+            "next_id": "Q8"
+        },
+        {
+            "question": "How often do you exercise?",
+            "options": [
+                {"option1": "Regularly", "score": 0},
+                {"option2": "Sometimes", "score": 2},
+                {"option3": "Rarely", "score": 4}
+            ],
+            "multiple_option_selector": "false",
+            "question_id": "Q8",
+            "prev_id": "Q7",
+            "next_id": "Q9"
+        },
+        {
+            "question": "Do you have diabetes?",
+            "options": [
+                {"option1": "Yes", "score": 5},
+                {"option2": "No", "score": 0}
+            ],
+            "multiple_option_selector": "false",
+            "question_id": "Q9",
+            "prev_id": "Q8",
+            "next_id": "Q10"
+        },
+        {
+            "question": "How would you describe your weight?",
+            "options": [
+                {"option1": "Underweight", "score": 0},
+                {"option2": "Normal", "score": 0},
+                {"option3": "Overweight", "score": 3},
+                {"option4": "Obese", "score": 5}
+            ],
+            "multiple_option_selector": "false",
+            "question_id": "Q10",
+            "prev_id": "Q9",
+            "next_id": "Q11"
+        },
+        {
+            "question": "Do you consume a lot of caffeine (e.g., coffee, tea)?",
+            "options": [
+                {"option1": "Yes", "score": 2},
+                {"option2": "No", "score": 0}
+            ],
+            "multiple_option_selector": "false",
+            "question_id": "Q11",
+            "prev_id": "Q10",
+            "next_id": "Q12"
+        },
+        {
+            "question": "Do you have high cholesterol?",
+            "options": [
+                {"option1": "Yes", "score": 4},
+                {"option2": "No", "score": 0}
+            ],
+            "multiple_option_selector": "false",
+            "question_id": "Q12",
+            "prev_id": "Q11",
+            "next_id": "Q13"
+        },
+        {
+            "question": "Have you been diagnosed with any kidney diseases?",
+            "options": [
+                {"option1": "Yes", "score": 4},
+                {"option2": "No", "score": 0}
+            ],
+            "multiple_option_selector": "false",
+            "question_id": "Q13",
+            "prev_id": "Q12",
+            "next_id": "Q14"
+        },
+        {
+            "question": "Do you often consume processed foods?",
+            "options": [
+                {"option1": "Yes", "score": 3},
+                {"option2": "No", "score": 0}
+            ],
+            "multiple_option_selector": "false",
+            "question_id": "Q14",
+            "prev_id": "Q13",
+            "next_id": "Q15"
+        },
+        {
+            "question": "Is your blood pressure consistently above 130/85?",
+            "options": [
+                {"option1": "Yes", "score": 5},
+                {"option2": "No", "score": 0}
+            ],
+            "multiple_option_selector": "false",
+            "question_id": "Q15",
+            "prev_id": "Q14",
+            "next_id": "null"
+        }
+    ]
+}
